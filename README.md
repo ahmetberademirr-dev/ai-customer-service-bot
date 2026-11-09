@@ -1,70 +1,92 @@
-# AI-Powered Customer Service Bot
+# ShopNova Support Bot
 
-An intelligent customer support automation system designed to classify incoming customer inquiries, prioritize support tickets, and generate automated responses using natural language processing and machine learning.
+[![tests](https://github.com/ahmetberademirr-dev/ai-customer-service-bot/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmetberademirr-dev/ai-customer-service-bot/actions/workflows/tests.yml)
 
-> **Status:** In Progress (Active Development)
+**A bilingual (Turkish / English) customer service bot for an online store that cuts the support team's workload and knows when to hand over to a human.**
 
-## Overview
+**▶ Live demo: [ahmetberademirr-dev.github.io/ai-customer-service-bot](https://ahmetberademirr-dev.github.io/ai-customer-service-bot/)** (chat with the bot, see the team-lead dashboard; add `?lang=en` for English)
 
-Customer service teams handle large volumes of repetitive inquiries daily. This project automates the initial triage and response workflow by combining a machine learning intent classifier with a structured SQL backend and an LLM-assisted response generator.
+![Demo: the bot asks for the order number, answers, refuses to cancel a shipped order and hands a payment complaint to a human with high priority](docs/demo.gif)
 
-### Key Capabilities
-- **Intent Classification:** Categorizes incoming messages (e.g., *Order Status*, *Refund Request*, *Technical Support*, *Billing Inquiry*) using TF-IDF vectorization and Scikit-Learn classifiers.
-- **Automated Ticket Triage:** Assigns priority scores and routes complex queries to human agents while resolving standard requests automatically.
-- **SQL Data Pipeline:** Logs interactions, response times, and resolution metrics into a relational database for operational analytics.
-- **Response Generation:** Produces context-aware replies using predefined templates and OpenAI API integration.
+## The problem
 
-## Tech Stack
-- **Language:** Python 3.11+
-- **Machine Learning:** Scikit-Learn, Pandas, NumPy
-- **Database:** SQLite / PostgreSQL (SQL)
-- **LLM Integration:** OpenAI API
-- **Data Pipeline:** Automated ETL logging for support metrics
+Most messages a store's support team gets are repetitive: *where is my order, can I cancel, how do I return this*. Agents spend their time on these while urgent cases (double charges, late deliveries, angry customers) wait in the same queue.
 
-## Project Structure
+## What the bot does
+
+| Step | What happens |
+|---|---|
+| **1. Understand** | Detects the language and one of 10 topics, with a confidence score. |
+| **2. Check** | Finds the order number (in the message or earlier in the chat), looks the order up and applies store rules: shipped orders can't be cancelled, returns are open for 14 days, the address can only change before shipping. |
+| **3. Decide** | Answers on its own, asks for missing information, or hands over to a human, and sets a priority. |
+| **4. Log** | Every message is stored with topic, confidence, decision and priority, which feeds the team-lead dashboard (automation rate, human queue, top topics, time saved). |
+
+### Design decisions
+
+- **Money is never automated.** Every payment issue goes to the billing team with high priority.
+- **It doesn't guess.** Below 40% confidence it asks the customer to rephrase. A wrong answer costs more than a second question.
+- **No loops.** Two misunderstandings in a row and the conversation goes to a human.
+- **Urgent first.** Late orders, payment issues and angry wording ("rezalet", "urgent", "scam"…) get high priority.
+- **Zero cost, zero data sharing.** No paid AI API. The demo runs entirely in the visitor's browser.
+
+## How well it works
+
+Measured with `python evaluate.py` ([full report](reports/evaluation.md)):
+
+| | 120 unseen test questions | 5-fold cross-validation (690) |
+|---|---|---|
+| Correct topic | 100.0% | **90.4%** |
+| Answers on its own | 96.7% | 83.3% |
+| Correct when it answers | 100.0% | **96.0%** |
+| Answers on the wrong topic | 0.0% | **3.3%** |
+| Asks the customer to rephrase | 3.3% | 16.7% |
+
+Language detection: 100% on the test set. The test set was written by hand and is easier than real traffic, so the **cross-validation column is the honest estimate**.
+
+## How it's built
+
+- **Model:** TF-IDF features (word 1–2 grams + character 2–5 grams, so Turkish suffixes and typos like *siparisim / siparişimi* match) and logistic regression, trained with scikit-learn on 690 hand-written Turkish and English examples.
+- **Rules + data:** demo orders in SQLite, store rules in [`src/bot.py`](src/bot.py), reply templates in [`data/replies.json`](data/replies.json).
+- **Browser demo:** [`export_model.py`](export_model.py) exports the trained weights to JSON, and [`docs/bot.js`](docs/bot.js) re-implements the same feature extraction and rules in JavaScript. A parity test proves the browser bot gives **the same topic and language as Python on all 810 sentences** and passes the same 22 conversation scenarios.
+- **Tests:** conversation scenarios live in [`tests/scenarios.json`](tests/scenarios.json) and run against both versions on every push (GitHub Actions).
 
 ```text
-ai-customer-service-bot/
-├── src/
-│   ├── __init__.py
-│   ├── classifier.py      # TF-IDF + Scikit-Learn intent classification pipeline
-│   ├── database.py        # SQL database schema and ticket logging queries
-│   └── bot.py             # Core customer service response engine
-├── main.py                # CLI & webhook entry point
-├── requirements.txt       # Project dependencies
-└── .env.example           # Environment variable template
+data/            training + test questions, demo orders, reply templates
+src/             classifier.py (models), bot.py (conversation + store rules), database.py (SQLite log + metrics)
+docs/            the live demo page (GitHub Pages): bot.js, app.js, model.json, data.json, metrics.json
+tests/           scenarios.json, Python tests, browser parity test (parity.mjs)
+evaluate.py      accuracy report -> reports/evaluation.md + docs/metrics.json
+export_model.py  Python model -> docs/model.json for the browser
+main.py          chat with the bot in the terminal
 ```
 
-## Quick Start
+## Run it locally
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ahmetberademirr-dev/ai-customer-service-bot.git
-   cd ai-customer-service-bot
-   ```
+Python 3.9–3.12 (Node.js 18+ optional, for the parity test):
 
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/ahmetberademirr-dev/ai-customer-service-bot.git
+cd ai-customer-service-bot
+pip install -r requirements.txt
 
-3. **Configure environment variables:**
-   ```bash
-   cp .env.example .env
-   ```
+python main.py --demo          # scripted Turkish + English conversation
+python main.py                 # chat with it (demo orders: 100231, 100245, 100262, 100278, 100290, 100301)
+python -m unittest discover tests
+python evaluate.py
 
-4. **Run the bot in interactive demo mode:**
-   ```bash
-   python main.py
-   ```
+# after changing anything in data/ or src/:
+python export_model.py
+python -m http.server -d docs  # open http://localhost:8000
+```
 
-## Roadmap
-- [x] SQL database schema for ticket tracking and analytics
-- [x] Baseline intent classifier with Scikit-Learn (TF-IDF + Logistic Regression)
-- [x] Core automated response pipeline
-- [ ] Multi-channel webhook integration (WhatsApp / Telegram / Web Chat)
-- [ ] Analytics dashboard for resolution rate and response time metrics
+## Limits
+
+- Topics and order data are a demo store's, not a real company's. A real deployment would plug into the store's order system and a live-chat tool.
+- 690 training sentences is small; real conversation logs would improve accuracy, especially for mixed or very short messages.
+- Replies are templates, not generated text. That is deliberate: every answer is predictable and checkable.
 
 ## Author
-**Ahmet Bera Demir**  
-Management Engineering, Istanbul Technical University (ITU)
+
+**Ahmet Bera Demir**, Management Engineering, Istanbul Technical University (ITU) · [LinkedIn](https://www.linkedin.com/in/ahmet-bera-demir-345857299/)
+
+Design, business rules and evaluation by Ahmet. Code written with AI assistance (Claude Code).
