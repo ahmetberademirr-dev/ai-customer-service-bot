@@ -1,0 +1,7 @@
+order_id,item_tr,item_en,status,carrier,ordered_days_ago,eta_in_days,delivered_days_ago
+100231,Kablosuz kulaklık,Wireless headphones,shipped,Hızlı Kargo,3,1,
+100245,Koşu ayakkabısı,Running shoes,preparing,,0,3,
+100262,Kahve makinesi,Coffee machine,delivered,Hızlı Kargo,9,,5
+100278,Kışlık mont,Winter jacket,delivered,Anadolu Kargo,40,,30
+100290,Telefon kılıfı,Phone case,shipped,Anadolu Kargo,8,-2,
+100301,Sırt çantası,Backpack,cancelled,,12,,
