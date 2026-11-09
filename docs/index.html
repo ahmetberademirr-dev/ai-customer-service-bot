@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopNova Support Bot</title>
+  <meta name="description" content="A bilingual customer service bot that answers routine questions, follows store rules and knows when to hand over to a human. Live demo with a team-lead dashboard.">
+  <meta property="og:title" content="ShopNova Support Bot · Ahmet Bera Demir">
+  <meta property="og:description" content="Customer service bot that cuts a support team's workload and knows when to hand over. Try it live.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M8 11h16v9H14l-4 4v-4H8z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="ShopNova Support Bot">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M8 11h16v9H14l-4 4v-4H8z" fill="var(--bg)"/></svg>
+        <span>ShopNova <b>Support Bot</b></span>
+      </a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#demo" data-i18n="nav_demo"></a>
+        <a href="#dashboard" data-i18n="nav_dashboard"></a>
+        <a href="#how" data-i18n="nav_how"></a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="tr">TR</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow" data-i18n="eyebrow"></p>
+      <h1 data-i18n="hero_title"></h1>
+      <p class="lead" data-i18n="hero_lead"></p>
+      <ul class="hero-stats" id="hero-stats" aria-label="Key numbers"></ul>
+      <div class="hero-actions">
+        <a class="btn primary" href="#demo" data-i18n="cta_try"></a>
+        <a class="btn" href="#dashboard" data-i18n="cta_dashboard"></a>
+      </div>
+    </section>
+
+    <!-- 1. Live demo -->
+    <section id="demo" class="section wrap">
+      <div class="section-head">
+        <h2 data-i18n="demo_title"></h2>
+        <p data-i18n="demo_lead"></p>
+      </div>
+      <div class="demo-grid">
+        <div class="card chat">
+          <div class="chat-head">
+            <div class="avatar" aria-hidden="true">S</div>
+            <div>
+              <strong>ShopNova</strong>
+              <span class="muted small" data-i18n="chat_status"></span>
+            </div>
+            <button type="button" class="btn ghost small" id="reset" data-i18n="reset"></button>
+          </div>
+          <div class="chat-log" id="chat-log" aria-live="polite" aria-label="Conversation"></div>
+          <div class="chips" id="chips" aria-label="Example questions"></div>
+          <form class="chat-input" id="chat-form" autocomplete="off">
+            <label for="message" class="sr-only" data-i18n="placeholder"></label>
+            <input id="message" name="message" maxlength="500" disabled>
+            <button class="btn primary" type="submit" id="send" disabled data-i18n="send"></button>
+          </form>
+          <p class="privacy small muted" data-i18n="privacy"></p>
+        </div>
+
+        <aside class="card orders">
+          <h3 data-i18n="orders_title"></h3>
+          <p class="small muted" data-i18n="orders_lead"></p>
+          <ul id="order-list"></ul>
+          <div class="legend small">
+            <h4 data-i18n="legend_title"></h4>
+            <ul id="legend"></ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 2. Team lead dashboard -->
+    <section id="dashboard" class="section wrap">
+      <div class="section-head">
+        <h2 data-i18n="dash_title"></h2>
+        <p data-i18n="dash_lead"></p>
+      </div>
+      <div class="kpis" id="kpis"></div>
+      <div class="dash-grid">
+        <div class="card">
+          <h3 data-i18n="topics_title"></h3>
+          <div id="topic-bars" class="bars"></div>
+        </div>
+        <div class="card">
+          <h3 data-i18n="queue_title"></h3>
+          <p class="small muted" data-i18n="queue_lead"></p>
+          <ol id="queue" class="queue"></ol>
+        </div>
+        <div class="card calc">
+          <h3 data-i18n="calc_title"></h3>
+          <div class="calc-inputs">
+            <label><span data-i18n="calc_daily"></span><input type="number" id="calc-daily" min="0" max="100000" value="500"></label>
+            <label><span data-i18n="calc_minutes"></span><input type="number" id="calc-minutes" min="0" max="120" step="0.5" value="4"></label>
+          </div>
+          <p class="calc-result" id="calc-result"></p>
+          <p class="small muted" id="calc-formula"></p>
+          <p class="small muted" data-i18n="calc_note"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. How it works -->
+    <section id="how" class="section wrap">
+      <div class="section-head">
+        <h2 data-i18n="how_title"></h2>
+        <p data-i18n="how_lead"></p>
+      </div>
+      <ol class="steps" id="steps"></ol>
+
+      <div class="how-grid">
+        <div class="card">
+          <h3 data-i18n="measure_title"></h3>
+          <p class="small muted" data-i18n="measure_lead"></p>
+          <table class="measure" id="measure"></table>
+          <p class="small"><a href="https://github.com/ahmetberademirr-dev/ai-customer-service-bot/blob/main/reports/evaluation.md" data-i18n="measure_link"></a></p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="decisions_title"></h3>
+          <ul class="decisions" id="decisions"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <strong>Ahmet Bera Demir</strong>
+        <span class="muted" data-i18n="footer_school"></span>
+      </div>
+      <p class="small muted" data-i18n="footer_credit"></p>
+      <div class="footer-links">
+        <a href="https://github.com/ahmetberademirr-dev/ai-customer-service-bot">GitHub</a>
+        <a href="https://www.linkedin.com/in/ahmet-bera-demir-345857299/">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

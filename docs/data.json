@@ -1,0 +1,747 @@
+{
+ "rules": {
+  "threshold": 0.4,
+  "language_confidence": 0.75,
+  "max_message_length": 500,
+  "return_window_days": 14,
+  "order_intents": [
+   "cancel_order",
+   "change_address",
+   "order_status",
+   "return_refund"
+  ],
+  "simple_intents": {
+   "greeting": [
+    "greeting",
+    "answered"
+   ],
+   "goodbye": [
+    "goodbye",
+    "answered"
+   ],
+   "account_help": [
+    "account_help",
+    "answered"
+   ],
+   "out_of_scope": [
+    "out_of_scope",
+    "answered"
+   ],
+   "payment_issue": [
+    "payment_issue",
+    "escalated"
+   ],
+   "human_agent": [
+    "human_agent",
+    "escalated"
+   ]
+  },
+  "urgent_words": [
+   "acil",
+   "asap",
+   "avukat",
+   "berbat",
+   "dolandir",
+   "dolandirici",
+   "fraud",
+   "furious",
+   "hakem",
+   "lawyer",
+   "mahkeme",
+   "rezalet",
+   "scam",
+   "sikayet",
+   "terrible",
+   "unacceptable",
+   "urgent",
+   "worst"
+  ],
+  "filler_words": [
+   "bu",
+   "id",
+   "is",
+   "iste",
+   "it",
+   "my",
+   "no",
+   "nr",
+   "numara",
+   "numarali",
+   "numaram",
+   "numarasi",
+   "number",
+   "order",
+   "s",
+   "siparis",
+   "siparisim",
+   "siparisimin"
+  ],
+  "tr_fold": {
+   "ç": "c",
+   "ğ": "g",
+   "ı": "i",
+   "ö": "o",
+   "ş": "s",
+   "ü": "u",
+   "â": "a",
+   "î": "i",
+   "û": "u",
+   "Ç": "c",
+   "Ğ": "g",
+   "İ": "i",
+   "I": "i",
+   "Ö": "o",
+   "Ş": "s",
+   "Ü": "u",
+   "Â": "a",
+   "Î": "i",
+   "Û": "u"
+  }
+ },
+ "replies": {
+  "greeting": {
+   "tr": "Merhaba, ShopNova müşteri hizmetlerine hoş geldiniz. Sipariş takibi, iptal, iade, adres değişikliği, ödeme ve hesap konularında yardımcı olabilirim. Size nasıl yardımcı olabilirim?",
+   "en": "Hi, welcome to ShopNova customer service. I can help with order tracking, cancellations, returns, address changes, payments and account issues. How can I help you?"
+  },
+  "goodbye": {
+   "tr": "Rica ederim. Başka bir konuda yardım gerekirse buradayım. İyi günler!",
+   "en": "You're welcome. I'm here if you need anything else. Have a great day!"
+  },
+  "ask_order_id": {
+   "tr": "Bakabilmem için 6 haneli sipariş numaranızı yazar mısınız? (Örnek: 100231)",
+   "en": "Could you share your 6-digit order number so I can check? (Example: 100231)"
+  },
+  "order_not_found": {
+   "tr": "{order_id} numaralı bir sipariş bulamadım. Numarayı kontrol edip tekrar yazar mısınız?",
+   "en": "I couldn't find an order with the number {order_id}. Could you double-check it and try again?"
+  },
+  "status_preparing": {
+   "tr": "{order_id} numaralı siparişiniz ({item}) hazırlanıyor. Tahmini {eta} gün içinde kargoya verilecek.",
+   "en": "Your order {order_id} ({item}) is being prepared. It should ship within {eta} days."
+  },
+  "status_shipped": {
+   "tr": "{order_id} numaralı siparişiniz ({item}) {carrier} ile yolda. Tahmini teslimat: {eta} gün içinde.",
+   "en": "Your order {order_id} ({item}) is on its way with {carrier}. Estimated delivery: within {eta} days."
+  },
+  "status_delayed": {
+   "tr": "{order_id} numaralı siparişiniz ({item}) {carrier} ile yolda ancak tahmini teslim tarihi {days} gün geçmiş. Gecikme için özür dileriz. Talebinizi kargo ekibimize öncelikli olarak ilettim, sizinle iletişime geçecekler.",
+   "en": "Your order {order_id} ({item}) is with {carrier}, but it is {days} days past the estimated delivery date. We're sorry for the delay. I've flagged this to our shipping team as a priority and they will contact you."
+  },
+  "status_delivered": {
+   "tr": "{order_id} numaralı siparişiniz ({item}) {days} gün önce teslim edildi. Ürünle ilgili bir sorun varsa iade talebi oluşturabilirim.",
+   "en": "Your order {order_id} ({item}) was delivered {days} days ago. If something is wrong with it, I can start a return for you."
+  },
+  "status_cancelled": {
+   "tr": "{order_id} numaralı sipariş iptal edilmiş. Ödemeniz yapıldıysa iadesi 3-5 iş günü içinde kartınıza yansır.",
+   "en": "Order {order_id} has been cancelled. If you were charged, the refund will reach your card within 3-5 business days."
+  },
+  "cancel_ok": {
+   "tr": "{order_id} numaralı siparişiniz ({item}) henüz kargoya verilmediği için iptal ettim. Ödemenizin iadesi 3-5 iş günü içinde kartınıza yansır.",
+   "en": "Your order {order_id} ({item}) hadn't shipped yet, so I've cancelled it. Your refund will reach your card within 3-5 business days."
+  },
+  "cancel_shipped": {
+   "tr": "{order_id} numaralı siparişiniz kargoya verildiği için artık iptal edilemiyor. Teslim aldıktan sonra 14 gün içinde ücretsiz iade edebilirsiniz.",
+   "en": "Order {order_id} has already shipped, so it can't be cancelled anymore. Once it arrives, you can return it for free within 14 days."
+  },
+  "cancel_delivered": {
+   "tr": "{order_id} numaralı sipariş teslim edilmiş, bu yüzden iptal yerine iade yapabiliriz. İade başlatmak için \"iade\" yazmanız yeterli.",
+   "en": "Order {order_id} has already been delivered, so instead of a cancellation we can do a return. Just type \"return\" to start one."
+  },
+  "cancel_already": {
+   "tr": "{order_id} numaralı sipariş zaten iptal edilmiş durumda.",
+   "en": "Order {order_id} is already cancelled."
+  },
+  "return_ok": {
+   "tr": "{order_id} numaralı siparişiniz ({item}) için iade kodunuz: {code}. Ürünü bu kodla 14 gün içinde ücretsiz kargoya verebilirsiniz. Ürün depomuza ulaşınca ödemeniz 3-5 iş günü içinde iade edilir.",
+   "en": "Your return code for order {order_id} ({item}) is {code}. You can drop it off with this code for free within 14 days. Once it reaches our warehouse, your refund takes 3-5 business days."
+  },
+  "return_expired": {
+   "tr": "{order_id} numaralı sipariş {days} gün önce teslim edilmiş. 14 günlük iade süresi dolduğu için otomatik iade açamıyorum. Talebinizi değerlendirmesi için bir müşteri temsilcisine aktardım.",
+   "en": "Order {order_id} was delivered {days} days ago, which is past our 14-day return window, so I can't open a return automatically. I've passed your request to a customer service agent to review."
+  },
+  "return_not_delivered": {
+   "tr": "{order_id} numaralı sipariş henüz teslim edilmedi. Teslim aldıktan sonra iade talebi oluşturabilirsiniz. Ürünü hiç istemiyorsanız iptal seçeneğine de bakabilirim.",
+   "en": "Order {order_id} hasn't been delivered yet. You can start a return once it arrives. If you no longer want it, I can check whether it can be cancelled."
+  },
+  "address_ok": {
+   "tr": "{order_id} numaralı siparişiniz henüz kargoya verilmedi, adresi değiştirebiliriz. Yeni adresinizi girmeniz için kayıtlı e-posta adresinize güvenli bir bağlantı gönderdim.",
+   "en": "Order {order_id} hasn't shipped yet, so we can change the address. I've sent a secure link to your registered email where you can enter the new address."
+  },
+  "address_too_late": {
+   "tr": "{order_id} numaralı sipariş kargoya verildiği için adresi ben değiştiremiyorum. Talebinizi kargo firmasıyla görüşmesi için bir müşteri temsilcisine aktardım.",
+   "en": "Order {order_id} has already shipped, so I can't change the address myself. I've passed your request to an agent who will coordinate with the courier."
+  },
+  "address_cancelled": {
+   "tr": "{order_id} numaralı sipariş iptal edildiği için adres değişikliği gerekmiyor.",
+   "en": "Order {order_id} is cancelled, so no address change is needed."
+  },
+  "payment_issue": {
+   "tr": "Ödeme konuları hassas olduğu için talebinizi muhasebe ekibimize öncelikli olarak ilettim. En geç 1 iş günü içinde size dönüş yapılacak. Kart bilgilerinizi bu sohbete yazmayın.",
+   "en": "Because payment issues are sensitive, I've sent your request to our billing team as a priority. They will get back to you within 1 business day. Please don't share card details in this chat."
+  },
+  "account_help": {
+   "tr": "Hesap sorunlarının çoğu şu adımlarla çözülüyor: 1) Giriş ekranında \"Şifremi unuttum\" ile yeni şifre alın. 2) Gelen kutunuzla birlikte spam klasörüne de bakın. 3) Uygulamayı güncelleyip yeniden açın. Sorun devam ederse \"temsilci\" yazmanız yeterli.",
+   "en": "Most account issues are fixed with these steps: 1) Use \"Forgot password\" on the sign-in screen. 2) Check your spam folder as well as your inbox. 3) Update the app and reopen it. If it still doesn't work, just type \"agent\"."
+  },
+  "human_agent": {
+   "tr": "Sizi bir müşteri temsilcisine aktarıyorum. Ortalama bekleme süresi 5 dakika. Bu sırada konuyu kısaca yazarsanız temsilci hazırlıklı gelir.",
+   "en": "I'm transferring you to a customer service agent. The average wait is 5 minutes. If you briefly describe the issue meanwhile, the agent will come prepared."
+  },
+  "out_of_scope": {
+   "tr": "Bu konuda yardımcı olamıyorum, ben ShopNova'nın müşteri hizmetleri asistanıyım. Sipariş, iptal, iade, adres, ödeme ya da hesap konularında yardımcı olabilirim.",
+   "en": "I can't help with that, I'm ShopNova's customer service assistant. I can help with orders, cancellations, returns, addresses, payments or your account."
+  },
+  "clarify": {
+   "tr": "Tam olarak anlayamadım. Şu konularda yardımcı olabilirim: sipariş takibi, iptal, iade, adres değişikliği, ödeme, hesap. Biraz daha açar mısınız?",
+   "en": "I didn't quite get that. I can help with: order tracking, cancellations, returns, address changes, payments, account issues. Could you rephrase?"
+  },
+  "clarify_escalate": {
+   "tr": "Üzgünüm, talebinizi yine anlayamadım. Vaktinizi almamak için sizi bir müşteri temsilcisine aktarıyorum.",
+   "en": "Sorry, I still couldn't understand your request. To save you time, I'm transferring you to a customer service agent."
+  }
+ },
+ "orders": [
+  {
+   "order_id": "100231",
+   "item_tr": "Kablosuz kulaklık",
+   "item_en": "Wireless headphones",
+   "status": "shipped",
+   "carrier": "Hızlı Kargo",
+   "ordered_days_ago": 3,
+   "eta_in_days": 1,
+   "delivered_days_ago": null
+  },
+  {
+   "order_id": "100245",
+   "item_tr": "Koşu ayakkabısı",
+   "item_en": "Running shoes",
+   "status": "preparing",
+   "carrier": null,
+   "ordered_days_ago": 0,
+   "eta_in_days": 3,
+   "delivered_days_ago": null
+  },
+  {
+   "order_id": "100262",
+   "item_tr": "Kahve makinesi",
+   "item_en": "Coffee machine",
+   "status": "delivered",
+   "carrier": "Hızlı Kargo",
+   "ordered_days_ago": 9,
+   "eta_in_days": null,
+   "delivered_days_ago": 5
+  },
+  {
+   "order_id": "100278",
+   "item_tr": "Kışlık mont",
+   "item_en": "Winter jacket",
+   "status": "delivered",
+   "carrier": "Anadolu Kargo",
+   "ordered_days_ago": 40,
+   "eta_in_days": null,
+   "delivered_days_ago": 30
+  },
+  {
+   "order_id": "100290",
+   "item_tr": "Telefon kılıfı",
+   "item_en": "Phone case",
+   "status": "shipped",
+   "carrier": "Anadolu Kargo",
+   "ordered_days_ago": 8,
+   "eta_in_days": -2,
+   "delivered_days_ago": null
+  },
+  {
+   "order_id": "100301",
+   "item_tr": "Sırt çantası",
+   "item_en": "Backpack",
+   "status": "cancelled",
+   "carrier": null,
+   "ordered_days_ago": 12,
+   "eta_in_days": null,
+   "delivered_days_ago": null
+  }
+ ],
+ "simulation": [
+  {
+   "text": "Merhaba iyi günler",
+   "lang": "tr"
+  },
+  {
+   "text": "Selam, kimse var mı",
+   "lang": "tr"
+  },
+  {
+   "text": "iyi aksamlar, yardim lazim",
+   "lang": "tr"
+  },
+  {
+   "text": "Merhabalar efendim",
+   "lang": "tr"
+  },
+  {
+   "text": "Günaydın, bir sorum olacak",
+   "lang": "tr"
+  },
+  {
+   "text": "merhaba destek",
+   "lang": "tr"
+  },
+  {
+   "text": "hi team",
+   "lang": "en"
+  },
+  {
+   "text": "hello, anybody here?",
+   "lang": "en"
+  },
+  {
+   "text": "good morning team",
+   "lang": "en"
+  },
+  {
+   "text": "hey, need help",
+   "lang": "en"
+  },
+  {
+   "text": "hellooo",
+   "lang": "en"
+  },
+  {
+   "text": "hi good evening",
+   "lang": "en"
+  },
+  {
+   "text": "çok teşekkür ederim, iyi günler",
+   "lang": "tr"
+  },
+  {
+   "text": "tamam sağolun",
+   "lang": "tr"
+  },
+  {
+   "text": "teşekkürler sorun kalmadı",
+   "lang": "tr"
+  },
+  {
+   "text": "harikasınız teşekkür ederim",
+   "lang": "tr"
+  },
+  {
+   "text": "iyi çalışmalar",
+   "lang": "tr"
+  },
+  {
+   "text": "cok tesekkurler",
+   "lang": "tr"
+  },
+  {
+   "text": "thank you very much",
+   "lang": "en"
+  },
+  {
+   "text": "ok thanks bye",
+   "lang": "en"
+  },
+  {
+   "text": "thanks, that's all I needed",
+   "lang": "en"
+  },
+  {
+   "text": "great help, thanks",
+   "lang": "en"
+  },
+  {
+   "text": "bye now",
+   "lang": "en"
+  },
+  {
+   "text": "many thanks",
+   "lang": "en"
+  },
+  {
+   "text": "sipariş verdim 5 gün oldu gelmedi 100262",
+   "lang": "tr"
+  },
+  {
+   "text": "kargom nerde acaba 100245",
+   "lang": "tr"
+  },
+  {
+   "text": "paketimin takip numarasını öğrenebilir miyim 100278",
+   "lang": "tr"
+  },
+  {
+   "text": "siparişimin durumu ne 100301",
+   "lang": "tr"
+  },
+  {
+   "text": "ürün ne zaman gelir 100231",
+   "lang": "tr"
+  },
+  {
+   "text": "kargo hala yola çıkmadı mı 100231",
+   "lang": "tr"
+  },
+  {
+   "text": "where's my stuff 100290",
+   "lang": "en"
+  },
+  {
+   "text": "my order hasn't shown up 100231",
+   "lang": "en"
+  },
+  {
+   "text": "tracking info please 100262",
+   "lang": "en"
+  },
+  {
+   "text": "when does my package arrive 100290",
+   "lang": "en"
+  },
+  {
+   "text": "is my order shipped 100231",
+   "lang": "en"
+  },
+  {
+   "text": "delivery is taking too long 100290",
+   "lang": "en"
+  },
+  {
+   "text": "siparişi iptal etmek istiyorum lütfen 100245",
+   "lang": "tr"
+  },
+  {
+   "text": "vazgeçtim siparişi iptal edin 100231",
+   "lang": "tr"
+  },
+  {
+   "text": "iptal edebilir miyim siparişimi 100231",
+   "lang": "tr"
+  },
+  {
+   "text": "yanlış renk seçtim iptal 100278",
+   "lang": "tr"
+  },
+  {
+   "text": "sipariş iptali 100278",
+   "lang": "tr"
+  },
+  {
+   "text": "siparisi iptal edin 100231",
+   "lang": "tr"
+  },
+  {
+   "text": "please cancel my order 100245",
+   "lang": "en"
+  },
+  {
+   "text": "cancel the order i placed today 100231",
+   "lang": "en"
+  },
+  {
+   "text": "i want to cancel 100290",
+   "lang": "en"
+  },
+  {
+   "text": "can i still cancel 100278",
+   "lang": "en"
+  },
+  {
+   "text": "i made a mistake, cancel the purchase 100231",
+   "lang": "en"
+  },
+  {
+   "text": "cancel order 100245",
+   "lang": "en"
+  },
+  {
+   "text": "ürün defolu geldi iade etmek istiyorum 100290",
+   "lang": "tr"
+  },
+  {
+   "text": "iade ettim para ne zaman yatar 100231",
+   "lang": "tr"
+  },
+  {
+   "text": "beden küçük geldi değişim 100245",
+   "lang": "tr"
+  },
+  {
+   "text": "iade süreci nasıl işliyor 100301",
+   "lang": "tr"
+  },
+  {
+   "text": "paramı iade edin 100301",
+   "lang": "tr"
+  },
+  {
+   "text": "kırık çıktı geri göndereceğim 100290",
+   "lang": "tr"
+  },
+  {
+   "text": "item is broken, refund 100231",
+   "lang": "en"
+  },
+  {
+   "text": "how can i send this back 100290",
+   "lang": "en"
+  },
+  {
+   "text": "where is my refund 100290",
+   "lang": "en"
+  },
+  {
+   "text": "wrong size, exchange please 100278",
+   "lang": "en"
+  },
+  {
+   "text": "return policy? 100231",
+   "lang": "en"
+  },
+  {
+   "text": "i want my money back 100245",
+   "lang": "en"
+  },
+  {
+   "text": "adresimi yanlış girdim değiştirebilir miyim 100231",
+   "lang": "tr"
+  },
+  {
+   "text": "yeni adresime gönderin 100290",
+   "lang": "tr"
+  },
+  {
+   "text": "teslimat adresi değişikliği 100245",
+   "lang": "tr"
+  },
+  {
+   "text": "kapı numarası yanlış 100262",
+   "lang": "tr"
+  },
+  {
+   "text": "siparişi annemin adresine gönderin 100278",
+   "lang": "tr"
+  },
+  {
+   "text": "adres guncellemek istiyorum 100245",
+   "lang": "tr"
+  },
+  {
+   "text": "wrong address on order 100290",
+   "lang": "en"
+  },
+  {
+   "text": "change shipping address please 100231",
+   "lang": "en"
+  },
+  {
+   "text": "send it to my new place 100290",
+   "lang": "en"
+  },
+  {
+   "text": "i need to update the delivery address 100262",
+   "lang": "en"
+  },
+  {
+   "text": "apartment number is wrong 100290",
+   "lang": "en"
+  },
+  {
+   "text": "deliver to my office 100301",
+   "lang": "en"
+  },
+  {
+   "text": "kartımdan 2 kez para çekildi",
+   "lang": "tr"
+  },
+  {
+   "text": "fatura nerede",
+   "lang": "tr"
+  },
+  {
+   "text": "ödeme yapamıyorum hata veriyor",
+   "lang": "tr"
+  },
+  {
+   "text": "indirim kodu geçmiyor",
+   "lang": "tr"
+  },
+  {
+   "text": "param çekildi sipariş görünmüyor",
+   "lang": "tr"
+  },
+  {
+   "text": "taksit yapabiliyor musunuz",
+   "lang": "tr"
+  },
+  {
+   "text": "double charged",
+   "lang": "en"
+  },
+  {
+   "text": "payment failed",
+   "lang": "en"
+  },
+  {
+   "text": "send me the invoice",
+   "lang": "en"
+  },
+  {
+   "text": "promo code not working",
+   "lang": "en"
+  },
+  {
+   "text": "card got declined",
+   "lang": "en"
+  },
+  {
+   "text": "charged but no order",
+   "lang": "en"
+  },
+  {
+   "text": "şifremi hatırlamıyorum",
+   "lang": "tr"
+  },
+  {
+   "text": "giriş yapamıyorum",
+   "lang": "tr"
+  },
+  {
+   "text": "uygulama kapanıyor sürekli",
+   "lang": "tr"
+  },
+  {
+   "text": "doğrulama sms gelmiyor",
+   "lang": "tr"
+  },
+  {
+   "text": "hesabımı kapatmak istiyorum",
+   "lang": "tr"
+  },
+  {
+   "text": "site açılmıyor",
+   "lang": "tr"
+  },
+  {
+   "text": "can't login",
+   "lang": "en"
+  },
+  {
+   "text": "forgot password",
+   "lang": "en"
+  },
+  {
+   "text": "app crashes on startup",
+   "lang": "en"
+  },
+  {
+   "text": "no verification email",
+   "lang": "en"
+  },
+  {
+   "text": "delete my account",
+   "lang": "en"
+  },
+  {
+   "text": "website is down",
+   "lang": "en"
+  },
+  {
+   "text": "temsilciye bağlanmak istiyorum",
+   "lang": "tr"
+  },
+  {
+   "text": "canlı destek lütfen",
+   "lang": "tr"
+  },
+  {
+   "text": "gerçek bir insanla görüşebilir miyim",
+   "lang": "tr"
+  },
+  {
+   "text": "yetkili biriyle konuşmam lazım",
+   "lang": "tr"
+  },
+  {
+   "text": "sizi nasıl arayabilirim",
+   "lang": "tr"
+  },
+  {
+   "text": "müşteri hizmetleri numarası",
+   "lang": "tr"
+  },
+  {
+   "text": "talk to agent",
+   "lang": "en"
+  },
+  {
+   "text": "real person please",
+   "lang": "en"
+  },
+  {
+   "text": "can i call someone",
+   "lang": "en"
+  },
+  {
+   "text": "speak to a manager",
+   "lang": "en"
+  },
+  {
+   "text": "live agent",
+   "lang": "en"
+  },
+  {
+   "text": "i want a human not a bot",
+   "lang": "en"
+  },
+  {
+   "text": "yarın yağmur yağacak mı",
+   "lang": "tr"
+  },
+  {
+   "text": "bana espri yap",
+   "lang": "tr"
+  },
+  {
+   "text": "galatasaray kazandı mı",
+   "lang": "tr"
+  },
+  {
+   "text": "makarna nasıl yapılır",
+   "lang": "tr"
+  },
+  {
+   "text": "euro ne kadar",
+   "lang": "tr"
+  },
+  {
+   "text": "canım sıkılıyor",
+   "lang": "tr"
+  },
+  {
+   "text": "tell me something funny",
+   "lang": "en"
+  },
+  {
+   "text": "weather tomorrow?",
+   "lang": "en"
+  },
+  {
+   "text": "who are you voting for",
+   "lang": "en"
+  },
+  {
+   "text": "how to cook pasta",
+   "lang": "en"
+  },
+  {
+   "text": "what's 2+2",
+   "lang": "en"
+  },
+  {
+   "text": "sing a song",
+   "lang": "en"
+  }
+ ]
+}
