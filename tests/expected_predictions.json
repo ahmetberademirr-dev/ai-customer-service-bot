@@ -1,0 +1,5672 @@
+[
+ {
+  "text": "Merhaba",
+  "intent": "greeting",
+  "confidence": 0.99,
+  "language": "tr",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Merhabalar",
+  "intent": "greeting",
+  "confidence": 0.911,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Selam",
+  "intent": "greeting",
+  "confidence": 0.928,
+  "language": "tr",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "İyi günler",
+  "intent": "greeting",
+  "confidence": 0.862,
+  "language": "tr",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "Günaydın",
+  "intent": "greeting",
+  "confidence": 0.91,
+  "language": "tr",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "İyi akşamlar",
+  "intent": "greeting",
+  "confidence": 0.784,
+  "language": "tr",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "Merhaba, yardımcı olabilir misiniz?",
+  "intent": "greeting",
+  "confidence": 0.915,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Selamlar, bir sorum var",
+  "intent": "greeting",
+  "confidence": 0.912,
+  "language": "tr",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Merhaba bir şey soracaktım",
+  "intent": "greeting",
+  "confidence": 0.956,
+  "language": "tr",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "Selam, orada kimse var mı?",
+  "intent": "greeting",
+  "confidence": 0.884,
+  "language": "tr",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "İyi günler, yardım lazım",
+  "intent": "greeting",
+  "confidence": 0.936,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Hey merhaba",
+  "intent": "greeting",
+  "confidence": 0.997,
+  "language": "tr",
+  "language_confidence": 0.785
+ },
+ {
+  "text": "Merhaba nasılsınız",
+  "intent": "greeting",
+  "confidence": 0.922,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Selamün aleyküm",
+  "intent": "greeting",
+  "confidence": 0.861,
+  "language": "tr",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "Slm",
+  "intent": "greeting",
+  "confidence": 0.865,
+  "language": "tr",
+  "language_confidence": 0.922
+ },
+ {
+  "text": "Mrb",
+  "intent": "greeting",
+  "confidence": 0.832,
+  "language": "tr",
+  "language_confidence": 0.879
+ },
+ {
+  "text": "Merhaba, destek ekibi mi?",
+  "intent": "greeting",
+  "confidence": 0.9,
+  "language": "tr",
+  "language_confidence": 0.964
+ },
+ {
+  "text": "Hayırlı günler",
+  "intent": "greeting",
+  "confidence": 0.873,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Merhaba, bana yardım eder misiniz",
+  "intent": "greeting",
+  "confidence": 0.904,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Hello",
+  "intent": "greeting",
+  "confidence": 0.98,
+  "language": "en",
+  "language_confidence": 0.937
+ },
+ {
+  "text": "Hi",
+  "intent": "greeting",
+  "confidence": 0.983,
+  "language": "en",
+  "language_confidence": 0.89
+ },
+ {
+  "text": "Hi there",
+  "intent": "greeting",
+  "confidence": 0.941,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Hey",
+  "intent": "greeting",
+  "confidence": 0.963,
+  "language": "en",
+  "language_confidence": 0.873
+ },
+ {
+  "text": "Good morning",
+  "intent": "greeting",
+  "confidence": 0.951,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "Good afternoon",
+  "intent": "greeting",
+  "confidence": 0.866,
+  "language": "en",
+  "language_confidence": 0.915
+ },
+ {
+  "text": "Good evening",
+  "intent": "greeting",
+  "confidence": 0.901,
+  "language": "en",
+  "language_confidence": 0.922
+ },
+ {
+  "text": "Hello, can you help me?",
+  "intent": "greeting",
+  "confidence": 0.917,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Hi, I have a question",
+  "intent": "greeting",
+  "confidence": 0.933,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Hey, anyone there?",
+  "intent": "greeting",
+  "confidence": 0.925,
+  "language": "en",
+  "language_confidence": 0.959
+ },
+ {
+  "text": "Hello support team",
+  "intent": "greeting",
+  "confidence": 0.888,
+  "language": "en",
+  "language_confidence": 0.925
+ },
+ {
+  "text": "Hi, I need some help",
+  "intent": "greeting",
+  "confidence": 0.945,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Greetings",
+  "intent": "greeting",
+  "confidence": 0.827,
+  "language": "en",
+  "language_confidence": 0.848
+ },
+ {
+  "text": "Hiya",
+  "intent": "greeting",
+  "confidence": 0.854,
+  "language": "en",
+  "language_confidence": 0.775
+ },
+ {
+  "text": "Hello, how are you?",
+  "intent": "greeting",
+  "confidence": 0.935,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Morning!",
+  "intent": "greeting",
+  "confidence": 0.875,
+  "language": "en",
+  "language_confidence": 0.837
+ },
+ {
+  "text": "Hi, quick question",
+  "intent": "greeting",
+  "confidence": 0.943,
+  "language": "en",
+  "language_confidence": 0.938
+ },
+ {
+  "text": "Hey there, is this customer service?",
+  "intent": "greeting",
+  "confidence": 0.883,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Hello there",
+  "intent": "greeting",
+  "confidence": 0.964,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Yo",
+  "intent": "greeting",
+  "confidence": 0.854,
+  "language": "en",
+  "language_confidence": 0.886
+ },
+ {
+  "text": "Teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.994,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Teşekkür ederim",
+  "intent": "goodbye",
+  "confidence": 0.947,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Çok sağ olun",
+  "intent": "goodbye",
+  "confidence": 0.959,
+  "language": "tr",
+  "language_confidence": 0.937
+ },
+ {
+  "text": "Sağ olun, iyi günler",
+  "intent": "goodbye",
+  "confidence": 0.923,
+  "language": "tr",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "Tamamdır teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.983,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Görüşmek üzere",
+  "intent": "goodbye",
+  "confidence": 0.836,
+  "language": "tr",
+  "language_confidence": 0.964
+ },
+ {
+  "text": "Hoşça kalın",
+  "intent": "goodbye",
+  "confidence": 0.89,
+  "language": "tr",
+  "language_confidence": 0.956
+ },
+ {
+  "text": "Eyvallah",
+  "intent": "goodbye",
+  "confidence": 0.867,
+  "language": "tr",
+  "language_confidence": 0.902
+ },
+ {
+  "text": "Tşk",
+  "intent": "goodbye",
+  "confidence": 0.846,
+  "language": "tr",
+  "language_confidence": 0.886
+ },
+ {
+  "text": "Tamam anladım teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.979,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Yardımınız için teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.929,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Başka sorum yok",
+  "intent": "goodbye",
+  "confidence": 0.831,
+  "language": "tr",
+  "language_confidence": 0.954
+ },
+ {
+  "text": "Bu kadardı, iyi çalışmalar",
+  "intent": "goodbye",
+  "confidence": 0.858,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Süpersiniz teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.947,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Harika, sağolun",
+  "intent": "goodbye",
+  "confidence": 0.868,
+  "language": "tr",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "Tamam, iyi akşamlar",
+  "intent": "goodbye",
+  "confidence": 0.801,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Sorun çözüldü teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.938,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Bay bay",
+  "intent": "goodbye",
+  "confidence": 0.837,
+  "language": "tr",
+  "language_confidence": 0.87
+ },
+ {
+  "text": "Kendinize iyi bakın",
+  "intent": "goodbye",
+  "confidence": 0.868,
+  "language": "tr",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "Thanks",
+  "intent": "goodbye",
+  "confidence": 0.996,
+  "language": "en",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Thank you",
+  "intent": "goodbye",
+  "confidence": 0.986,
+  "language": "en",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Thanks a lot",
+  "intent": "goodbye",
+  "confidence": 0.952,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Thank you so much, bye",
+  "intent": "goodbye",
+  "confidence": 0.98,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Great, thanks",
+  "intent": "goodbye",
+  "confidence": 0.977,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Goodbye",
+  "intent": "goodbye",
+  "confidence": 0.88,
+  "language": "en",
+  "language_confidence": 0.914
+ },
+ {
+  "text": "Bye",
+  "intent": "goodbye",
+  "confidence": 0.959,
+  "language": "en",
+  "language_confidence": 0.9
+ },
+ {
+  "text": "See you",
+  "intent": "goodbye",
+  "confidence": 0.844,
+  "language": "en",
+  "language_confidence": 0.938
+ },
+ {
+  "text": "That's all, thanks",
+  "intent": "goodbye",
+  "confidence": 0.99,
+  "language": "en",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "Thanks for your help",
+  "intent": "goodbye",
+  "confidence": 0.957,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "No more questions",
+  "intent": "goodbye",
+  "confidence": 0.835,
+  "language": "en",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "Perfect, thank you",
+  "intent": "goodbye",
+  "confidence": 0.931,
+  "language": "en",
+  "language_confidence": 0.964
+ },
+ {
+  "text": "Cheers",
+  "intent": "goodbye",
+  "confidence": 0.852,
+  "language": "en",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Ok got it, thanks",
+  "intent": "goodbye",
+  "confidence": 0.965,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Have a nice day",
+  "intent": "goodbye",
+  "confidence": 0.847,
+  "language": "en",
+  "language_confidence": 0.946
+ },
+ {
+  "text": "Problem solved, thanks",
+  "intent": "goodbye",
+  "confidence": 0.921,
+  "language": "en",
+  "language_confidence": 0.929
+ },
+ {
+  "text": "Awesome, appreciate it",
+  "intent": "goodbye",
+  "confidence": 0.858,
+  "language": "en",
+  "language_confidence": 0.929
+ },
+ {
+  "text": "Thx",
+  "intent": "goodbye",
+  "confidence": 0.849,
+  "language": "en",
+  "language_confidence": 0.889
+ },
+ {
+  "text": "Bye bye",
+  "intent": "goodbye",
+  "confidence": 0.949,
+  "language": "en",
+  "language_confidence": 0.9
+ },
+ {
+  "text": "That helped, thank you",
+  "intent": "goodbye",
+  "confidence": 0.956,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Siparişim nerede?",
+  "intent": "order_status",
+  "confidence": 0.965,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Kargom ne zaman gelir?",
+  "intent": "order_status",
+  "confidence": 0.952,
+  "language": "tr",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "Siparişim hala gelmedi",
+  "intent": "order_status",
+  "confidence": 0.966,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Kargo takip numarası alabilir miyim?",
+  "intent": "order_status",
+  "confidence": 0.903,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Siparişimin durumu nedir?",
+  "intent": "order_status",
+  "confidence": 0.872,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Paketim hangi aşamada?",
+  "intent": "order_status",
+  "confidence": 0.885,
+  "language": "tr",
+  "language_confidence": 0.949
+ },
+ {
+  "text": "3 gündür kargo bekliyorum",
+  "intent": "order_status",
+  "confidence": 0.86,
+  "language": "tr",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Sipariş verdim ama hala gelmedi",
+  "intent": "order_status",
+  "confidence": 0.869,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Kargom yola çıktı mı?",
+  "intent": "order_status",
+  "confidence": 0.907,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Siparişim ne zaman teslim edilir?",
+  "intent": "order_status",
+  "confidence": 0.956,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Ürünüm ne zaman elime ulaşır?",
+  "intent": "order_status",
+  "confidence": 0.871,
+  "language": "tr",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "Kargo nerede kaldı?",
+  "intent": "order_status",
+  "confidence": 0.927,
+  "language": "tr",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Siparişimi takip etmek istiyorum",
+  "intent": "order_status",
+  "confidence": 0.857,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Siparisim nerde",
+  "intent": "order_status",
+  "confidence": 0.926,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Kargomun durumunu öğrenebilir miyim?",
+  "intent": "order_status",
+  "confidence": 0.892,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Teslimat tarihi ne zaman?",
+  "intent": "order_status",
+  "confidence": 0.858,
+  "language": "tr",
+  "language_confidence": 0.922
+ },
+ {
+  "text": "Sipariş verdiğim ürün hala kargoya verilmedi mi?",
+  "intent": "order_status",
+  "confidence": 0.904,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Paketim gecikti",
+  "intent": "order_status",
+  "confidence": 0.875,
+  "language": "tr",
+  "language_confidence": 0.912
+ },
+ {
+  "text": "Siparişim hazırlanıyor mu?",
+  "intent": "order_status",
+  "confidence": 0.879,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Kargom hangi firmada, nerede?",
+  "intent": "order_status",
+  "confidence": 0.934,
+  "language": "tr",
+  "language_confidence": 0.944
+ },
+ {
+  "text": "Where is my order?",
+  "intent": "order_status",
+  "confidence": 0.955,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "When will my package arrive?",
+  "intent": "order_status",
+  "confidence": 0.919,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "My order still hasn't arrived",
+  "intent": "order_status",
+  "confidence": 0.938,
+  "language": "en",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Can I get my tracking number?",
+  "intent": "order_status",
+  "confidence": 0.853,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "What is the status of my order?",
+  "intent": "order_status",
+  "confidence": 0.908,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Has my order shipped yet?",
+  "intent": "order_status",
+  "confidence": 0.928,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "I've been waiting for my delivery for a week",
+  "intent": "order_status",
+  "confidence": 0.865,
+  "language": "en",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Track my order please",
+  "intent": "order_status",
+  "confidence": 0.93,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "When will my item be delivered?",
+  "intent": "order_status",
+  "confidence": 0.908,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "My package is late",
+  "intent": "order_status",
+  "confidence": 0.927,
+  "language": "en",
+  "language_confidence": 0.971
+ },
+ {
+  "text": "Where is my parcel?",
+  "intent": "order_status",
+  "confidence": 0.918,
+  "language": "en",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "I ordered something and it's not here yet",
+  "intent": "order_status",
+  "confidence": 0.811,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Is my order on the way?",
+  "intent": "order_status",
+  "confidence": 0.932,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "What's the delivery date for my order?",
+  "intent": "order_status",
+  "confidence": 0.925,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "Which courier is delivering my order?",
+  "intent": "order_status",
+  "confidence": 0.901,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "My shipment is delayed",
+  "intent": "order_status",
+  "confidence": 0.852,
+  "language": "en",
+  "language_confidence": 0.956
+ },
+ {
+  "text": "Can you check my order?",
+  "intent": "order_status",
+  "confidence": 0.87,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Order status please",
+  "intent": "order_status",
+  "confidence": 0.862,
+  "language": "en",
+  "language_confidence": 0.947
+ },
+ {
+  "text": "Has my package been dispatched?",
+  "intent": "order_status",
+  "confidence": 0.916,
+  "language": "en",
+  "language_confidence": 0.953
+ },
+ {
+  "text": "Estimated delivery time for my order?",
+  "intent": "order_status",
+  "confidence": 0.917,
+  "language": "en",
+  "language_confidence": 0.908
+ },
+ {
+  "text": "Siparişimi iptal etmek istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.976,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Siparişi iptal edebilir misiniz?",
+  "intent": "cancel_order",
+  "confidence": 0.979,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Yanlış ürün sipariş ettim, iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.945,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Siparişimden vazgeçtim",
+  "intent": "cancel_order",
+  "confidence": 0.869,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Siparişi iptal et lütfen",
+  "intent": "cancel_order",
+  "confidence": 0.967,
+  "language": "tr",
+  "language_confidence": 0.961
+ },
+ {
+  "text": "Az önce verdiğim siparişi iptal etmek istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.963,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Sipariş iptali nasıl yapılır?",
+  "intent": "cancel_order",
+  "confidence": 0.884,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Kargoya verilmeden iptal edebilir miyim?",
+  "intent": "cancel_order",
+  "confidence": 0.871,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "İptal talebi oluşturmak istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.854,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Bu siparişi istemiyorum artık",
+  "intent": "cancel_order",
+  "confidence": 0.866,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Yanlışlıkla iki kere sipariş verdim, birini iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.913,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Siparişi durdurun",
+  "intent": "cancel_order",
+  "confidence": 0.903,
+  "language": "tr",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "Ürünü almaktan vazgeçtim, iptal mümkün mü?",
+  "intent": "cancel_order",
+  "confidence": 0.892,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Sipariş iptal butonu nerede?",
+  "intent": "cancel_order",
+  "confidence": 0.93,
+  "language": "tr",
+  "language_confidence": 0.949
+ },
+ {
+  "text": "Henüz kargoya verilmediyse iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.889,
+  "language": "tr",
+  "language_confidence": 0.943
+ },
+ {
+  "text": "Siparişimi iptal edip yenisini vereceğim",
+  "intent": "cancel_order",
+  "confidence": 0.92,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "İptal etmek istiyorum siparişi",
+  "intent": "cancel_order",
+  "confidence": 0.989,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Siparişi geri çekmek istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.886,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Verdiğim siparişi iptal ettirmek istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.956,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "I want to cancel my order",
+  "intent": "cancel_order",
+  "confidence": 0.991,
+  "language": "en",
+  "language_confidence": 0.998
+ },
+ {
+  "text": "Can you cancel my order?",
+  "intent": "cancel_order",
+  "confidence": 0.973,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Please cancel the order I just placed",
+  "intent": "cancel_order",
+  "confidence": 0.962,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "I changed my mind, cancel my order",
+  "intent": "cancel_order",
+  "confidence": 0.968,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "How do I cancel an order?",
+  "intent": "cancel_order",
+  "confidence": 0.971,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Cancel order please",
+  "intent": "cancel_order",
+  "confidence": 0.989,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "I ordered the wrong item, please cancel it",
+  "intent": "cancel_order",
+  "confidence": 0.917,
+  "language": "en",
+  "language_confidence": 0.998
+ },
+ {
+  "text": "Can I cancel before it ships?",
+  "intent": "cancel_order",
+  "confidence": 0.906,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "I placed a duplicate order, cancel one",
+  "intent": "cancel_order",
+  "confidence": 0.919,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Stop my order",
+  "intent": "cancel_order",
+  "confidence": 0.874,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "I don't want this order anymore",
+  "intent": "cancel_order",
+  "confidence": 0.838,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Cancellation request for my order",
+  "intent": "cancel_order",
+  "confidence": 0.886,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Is it too late to cancel my order?",
+  "intent": "cancel_order",
+  "confidence": 0.952,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "Please stop the shipment and cancel",
+  "intent": "cancel_order",
+  "confidence": 0.92,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "I need to cancel my purchase",
+  "intent": "cancel_order",
+  "confidence": 0.912,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "Where is the cancel button for my order?",
+  "intent": "cancel_order",
+  "confidence": 0.913,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "Cancel it, I found it cheaper elsewhere",
+  "intent": "cancel_order",
+  "confidence": 0.889,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "I'd like to cancel an order",
+  "intent": "cancel_order",
+  "confidence": 0.96,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Withdraw my order please",
+  "intent": "cancel_order",
+  "confidence": 0.881,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Cancel my recent order",
+  "intent": "cancel_order",
+  "confidence": 0.967,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Ürünü iade etmek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.984,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Paramı ne zaman geri alırım?",
+  "intent": "return_refund",
+  "confidence": 0.885,
+  "language": "tr",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "İade nasıl yapılır?",
+  "intent": "return_refund",
+  "confidence": 0.923,
+  "language": "tr",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "Ürün hasarlı geldi, iade etmek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.961,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "İade kodu alabilir miyim?",
+  "intent": "return_refund",
+  "confidence": 0.928,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Ürün bedenime olmadı, değiştirmek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.892,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Para iadem hala yapılmadı",
+  "intent": "return_refund",
+  "confidence": 0.885,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "İade süresi kaç gün?",
+  "intent": "return_refund",
+  "confidence": 0.906,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Kırık geldi, paramı geri istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.914,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Yanlış ürün gönderilmiş, iade edeceğim",
+  "intent": "return_refund",
+  "confidence": 0.907,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Ürünü beğenmedim, geri göndermek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.921,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "İade kargosu ücretli mi?",
+  "intent": "return_refund",
+  "confidence": 0.891,
+  "language": "tr",
+  "language_confidence": 0.94
+ },
+ {
+  "text": "Değişim yapabilir miyim?",
+  "intent": "return_refund",
+  "confidence": 0.848,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Iade etmek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.954,
+  "language": "tr",
+  "language_confidence": 0.97
+ },
+ {
+  "text": "Geri ödeme ne zaman hesabıma geçer?",
+  "intent": "return_refund",
+  "confidence": 0.836,
+  "language": "tr",
+  "language_confidence": 0.953
+ },
+ {
+  "text": "Ürün bozuk çıktı, iade",
+  "intent": "return_refund",
+  "confidence": 0.929,
+  "language": "tr",
+  "language_confidence": 0.959
+ },
+ {
+  "text": "İade ettiğim ürünün parası yatmadı",
+  "intent": "return_refund",
+  "confidence": 0.932,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Eksik ürün geldi, iadesini istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.924,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Ürünü geri yollamak istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.906,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Para iadesi talep ediyorum",
+  "intent": "return_refund",
+  "confidence": 0.915,
+  "language": "tr",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "I want to return this item",
+  "intent": "return_refund",
+  "confidence": 0.974,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "When will I get my refund?",
+  "intent": "return_refund",
+  "confidence": 0.955,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "How do I return a product?",
+  "intent": "return_refund",
+  "confidence": 0.967,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "The item arrived damaged, I want a refund",
+  "intent": "return_refund",
+  "confidence": 0.953,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Can I get a return label?",
+  "intent": "return_refund",
+  "confidence": 0.952,
+  "language": "en",
+  "language_confidence": 0.922
+ },
+ {
+  "text": "It doesn't fit, I want to exchange it",
+  "intent": "return_refund",
+  "confidence": 0.876,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "My refund hasn't arrived yet",
+  "intent": "return_refund",
+  "confidence": 0.885,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "How many days do I have to return?",
+  "intent": "return_refund",
+  "confidence": 0.891,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "It came broken, I want my money back",
+  "intent": "return_refund",
+  "confidence": 0.894,
+  "language": "en",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "You sent me the wrong item, I'm returning it",
+  "intent": "return_refund",
+  "confidence": 0.872,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "I don't like the product, can I send it back?",
+  "intent": "return_refund",
+  "confidence": 0.912,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Is return shipping free?",
+  "intent": "return_refund",
+  "confidence": 0.896,
+  "language": "en",
+  "language_confidence": 0.962
+ },
+ {
+  "text": "Can I exchange this item?",
+  "intent": "return_refund",
+  "confidence": 0.907,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Refund please",
+  "intent": "return_refund",
+  "confidence": 0.918,
+  "language": "en",
+  "language_confidence": 0.955
+ },
+ {
+  "text": "When will the refund show up on my account?",
+  "intent": "return_refund",
+  "confidence": 0.886,
+  "language": "en",
+  "language_confidence": 0.999
+ },
+ {
+  "text": "The product is defective, return",
+  "intent": "return_refund",
+  "confidence": 0.947,
+  "language": "en",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "I returned the item but didn't get my money",
+  "intent": "return_refund",
+  "confidence": 0.92,
+  "language": "en",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Item missing from the package, I want a refund",
+  "intent": "return_refund",
+  "confidence": 0.932,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Send it back for a refund",
+  "intent": "return_refund",
+  "confidence": 0.983,
+  "language": "en",
+  "language_confidence": 0.944
+ },
+ {
+  "text": "I'd like a refund for my purchase",
+  "intent": "return_refund",
+  "confidence": 0.908,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Teslimat adresimi değiştirmek istiyorum",
+  "intent": "change_address",
+  "confidence": 0.945,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Adresi yanlış yazdım",
+  "intent": "change_address",
+  "confidence": 0.959,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Kargo adresini güncelleyebilir miyim?",
+  "intent": "change_address",
+  "confidence": 0.898,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Siparişin adresini değiştirin lütfen",
+  "intent": "change_address",
+  "confidence": 0.943,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Taşındım, yeni adrese gönderilsin",
+  "intent": "change_address",
+  "confidence": 0.915,
+  "language": "tr",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Adres değişikliği yapmak istiyorum",
+  "intent": "change_address",
+  "confidence": 0.879,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Siparişi başka bir adrese yönlendirebilir misiniz?",
+  "intent": "change_address",
+  "confidence": 0.911,
+  "language": "tr",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "Teslimat adresinde hata var",
+  "intent": "change_address",
+  "confidence": 0.939,
+  "language": "tr",
+  "language_confidence": 0.942
+ },
+ {
+  "text": "Adresimi düzeltmem lazım",
+  "intent": "change_address",
+  "confidence": 0.876,
+  "language": "tr",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Paketi iş yerime gönderebilir misiniz?",
+  "intent": "change_address",
+  "confidence": 0.852,
+  "language": "tr",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "Adres bilgisini güncellemek istiyorum",
+  "intent": "change_address",
+  "confidence": 0.868,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Apartman numarasını yanlış yazmışım",
+  "intent": "change_address",
+  "confidence": 0.861,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Siparişimin gideceği adresi değiştirebilir miyim?",
+  "intent": "change_address",
+  "confidence": 0.923,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Adresi degistirmek istiyorum",
+  "intent": "change_address",
+  "confidence": 0.881,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Farklı bir şehre gönderilmesini istiyorum",
+  "intent": "change_address",
+  "confidence": 0.863,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Kargo yanlış adrese gidecek, değiştirin",
+  "intent": "change_address",
+  "confidence": 0.972,
+  "language": "tr",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "Teslimat adresini güncelleyin",
+  "intent": "change_address",
+  "confidence": 0.945,
+  "language": "tr",
+  "language_confidence": 0.96
+ },
+ {
+  "text": "Posta kodunu yanlış girdim",
+  "intent": "change_address",
+  "confidence": 0.845,
+  "language": "tr",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "Ev adresim yerine ofis adresime gelsin",
+  "intent": "change_address",
+  "confidence": 0.933,
+  "language": "tr",
+  "language_confidence": 0.907
+ },
+ {
+  "text": "Alıcı adresini değiştirmek mümkün mü?",
+  "intent": "change_address",
+  "confidence": 0.903,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "I want to change my delivery address",
+  "intent": "change_address",
+  "confidence": 0.95,
+  "language": "en",
+  "language_confidence": 0.998
+ },
+ {
+  "text": "I entered the wrong address",
+  "intent": "change_address",
+  "confidence": 0.956,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Can I update the shipping address?",
+  "intent": "change_address",
+  "confidence": 0.928,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Please change the address on my order",
+  "intent": "change_address",
+  "confidence": 0.948,
+  "language": "en",
+  "language_confidence": 0.999
+ },
+ {
+  "text": "I moved, send it to my new address",
+  "intent": "change_address",
+  "confidence": 0.934,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Address change request",
+  "intent": "change_address",
+  "confidence": 0.936,
+  "language": "en",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "Can you redirect my order to another address?",
+  "intent": "change_address",
+  "confidence": 0.937,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "There is a mistake in my delivery address",
+  "intent": "change_address",
+  "confidence": 0.946,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "I need to fix my address",
+  "intent": "change_address",
+  "confidence": 0.927,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Can you ship it to my office instead?",
+  "intent": "change_address",
+  "confidence": 0.828,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Update my address please",
+  "intent": "change_address",
+  "confidence": 0.92,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "I typed the wrong apartment number",
+  "intent": "change_address",
+  "confidence": 0.83,
+  "language": "en",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "Can I change where my order is going?",
+  "intent": "change_address",
+  "confidence": 0.816,
+  "language": "en",
+  "language_confidence": 0.998
+ },
+ {
+  "text": "Wrong zip code on my order",
+  "intent": "change_address",
+  "confidence": 0.86,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Deliver to a different city please",
+  "intent": "change_address",
+  "confidence": 0.85,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "My package will go to the wrong address, change it",
+  "intent": "change_address",
+  "confidence": 0.968,
+  "language": "en",
+  "language_confidence": 0.999
+ },
+ {
+  "text": "Edit shipping address",
+  "intent": "change_address",
+  "confidence": 0.947,
+  "language": "en",
+  "language_confidence": 0.923
+ },
+ {
+  "text": "Change the recipient address",
+  "intent": "change_address",
+  "confidence": 0.929,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "I want it delivered to my work address",
+  "intent": "change_address",
+  "confidence": 0.935,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "Can I modify the delivery address?",
+  "intent": "change_address",
+  "confidence": 0.944,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Kartımdan iki kere çekim yapıldı",
+  "intent": "payment_issue",
+  "confidence": 0.922,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Ödeme yaptım ama sipariş oluşmadı",
+  "intent": "payment_issue",
+  "confidence": 0.909,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Faturamı alabilir miyim?",
+  "intent": "payment_issue",
+  "confidence": 0.869,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Kartımdan fazla para çekilmiş",
+  "intent": "payment_issue",
+  "confidence": 0.972,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Ödeme hatası alıyorum",
+  "intent": "payment_issue",
+  "confidence": 0.927,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Taksit seçeneği görünmüyor",
+  "intent": "payment_issue",
+  "confidence": 0.849,
+  "language": "tr",
+  "language_confidence": 0.959
+ },
+ {
+  "text": "Ödeme sayfası kartımı kabul etmiyor",
+  "intent": "payment_issue",
+  "confidence": 0.924,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Para çekildi ama sipariş yok",
+  "intent": "payment_issue",
+  "confidence": 0.902,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Fatura bilgilerimi değiştirmek istiyorum",
+  "intent": "payment_issue",
+  "confidence": 0.896,
+  "language": "tr",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "Kupon kodum çalışmıyor",
+  "intent": "payment_issue",
+  "confidence": 0.895,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "İndirim uygulanmadı, fazla ödedim",
+  "intent": "payment_issue",
+  "confidence": 0.914,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Kapıda ödeme var mı?",
+  "intent": "payment_issue",
+  "confidence": 0.911,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Faturam e-postama gelmedi",
+  "intent": "payment_issue",
+  "confidence": 0.899,
+  "language": "tr",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Ödemem onaylanmadı",
+  "intent": "payment_issue",
+  "confidence": 0.892,
+  "language": "tr",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "Kartım reddedildi",
+  "intent": "payment_issue",
+  "confidence": 0.871,
+  "language": "tr",
+  "language_confidence": 0.961
+ },
+ {
+  "text": "Hesabımdan yanlış tutar çekildi",
+  "intent": "payment_issue",
+  "confidence": 0.872,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Odeme yapamiyorum",
+  "intent": "payment_issue",
+  "confidence": 0.975,
+  "language": "tr",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "Kurumsal fatura istiyorum",
+  "intent": "payment_issue",
+  "confidence": 0.929,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Çift çekim yapılmış, düzeltin",
+  "intent": "payment_issue",
+  "confidence": 0.88,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Hangi ödeme yöntemleri var?",
+  "intent": "payment_issue",
+  "confidence": 0.915,
+  "language": "tr",
+  "language_confidence": 0.939
+ },
+ {
+  "text": "I was charged twice",
+  "intent": "payment_issue",
+  "confidence": 0.953,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "I paid but no order was created",
+  "intent": "payment_issue",
+  "confidence": 0.878,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Can I get my invoice?",
+  "intent": "payment_issue",
+  "confidence": 0.951,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "You charged me too much",
+  "intent": "payment_issue",
+  "confidence": 0.878,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "I'm getting a payment error",
+  "intent": "payment_issue",
+  "confidence": 0.894,
+  "language": "en",
+  "language_confidence": 0.946
+ },
+ {
+  "text": "I can't see installment options",
+  "intent": "payment_issue",
+  "confidence": 0.875,
+  "language": "en",
+  "language_confidence": 0.97
+ },
+ {
+  "text": "The checkout page rejects my card",
+  "intent": "payment_issue",
+  "confidence": 0.895,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Money was taken but there's no order",
+  "intent": "payment_issue",
+  "confidence": 0.847,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "I want to change my billing details",
+  "intent": "payment_issue",
+  "confidence": 0.872,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "My coupon code doesn't work",
+  "intent": "payment_issue",
+  "confidence": 0.866,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "The discount wasn't applied, I overpaid",
+  "intent": "payment_issue",
+  "confidence": 0.884,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Do you accept cash on delivery?",
+  "intent": "payment_issue",
+  "confidence": 0.851,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "I didn't receive my invoice by email",
+  "intent": "payment_issue",
+  "confidence": 0.903,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "My payment wasn't approved",
+  "intent": "payment_issue",
+  "confidence": 0.941,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "My card was declined",
+  "intent": "payment_issue",
+  "confidence": 0.941,
+  "language": "en",
+  "language_confidence": 0.97
+ },
+ {
+  "text": "The wrong amount was charged",
+  "intent": "payment_issue",
+  "confidence": 0.921,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "I can't complete my payment",
+  "intent": "payment_issue",
+  "confidence": 0.917,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "I need a company invoice",
+  "intent": "payment_issue",
+  "confidence": 0.906,
+  "language": "en",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Double charge on my credit card",
+  "intent": "payment_issue",
+  "confidence": 0.914,
+  "language": "en",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "What payment methods do you accept?",
+  "intent": "payment_issue",
+  "confidence": 0.923,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Şifremi unuttum",
+  "intent": "account_help",
+  "confidence": 0.917,
+  "language": "tr",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Hesabıma giriş yapamıyorum",
+  "intent": "account_help",
+  "confidence": 0.943,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Uygulama sürekli çöküyor",
+  "intent": "account_help",
+  "confidence": 0.91,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Şifre sıfırlama e-postası gelmedi",
+  "intent": "account_help",
+  "confidence": 0.914,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Hesabım kilitlendi",
+  "intent": "account_help",
+  "confidence": 0.887,
+  "language": "tr",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Uygulama açılmıyor",
+  "intent": "account_help",
+  "confidence": 0.968,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "E-posta adresimi değiştirmek istiyorum",
+  "intent": "account_help",
+  "confidence": 0.782,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Site hata veriyor",
+  "intent": "account_help",
+  "confidence": 0.871,
+  "language": "tr",
+  "language_confidence": 0.846
+ },
+ {
+  "text": "Giriş yaparken hata alıyorum",
+  "intent": "account_help",
+  "confidence": 0.84,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Hesabımı silmek istiyorum",
+  "intent": "account_help",
+  "confidence": 0.9,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Doğrulama kodu gelmiyor",
+  "intent": "account_help",
+  "confidence": 0.911,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Telefon numaramı güncellemek istiyorum",
+  "intent": "account_help",
+  "confidence": 0.907,
+  "language": "tr",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Sepete ürün ekleyemiyorum",
+  "intent": "account_help",
+  "confidence": 0.896,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Sayfa yüklenmiyor",
+  "intent": "account_help",
+  "confidence": 0.859,
+  "language": "tr",
+  "language_confidence": 0.962
+ },
+ {
+  "text": "Uygulama donuyor",
+  "intent": "account_help",
+  "confidence": 0.926,
+  "language": "tr",
+  "language_confidence": 0.932
+ },
+ {
+  "text": "Üye olamıyorum",
+  "intent": "account_help",
+  "confidence": 0.894,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "SMS kodu gelmedi",
+  "intent": "account_help",
+  "confidence": 0.843,
+  "language": "tr",
+  "language_confidence": 0.912
+ },
+ {
+  "text": "Hesap bilgilerimi güncellemek istiyorum",
+  "intent": "account_help",
+  "confidence": 0.9,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Uygulamada bir sorun var",
+  "intent": "account_help",
+  "confidence": 0.859,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "I forgot my password",
+  "intent": "account_help",
+  "confidence": 0.949,
+  "language": "en",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "I can't log in to my account",
+  "intent": "account_help",
+  "confidence": 0.961,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "The app keeps crashing",
+  "intent": "account_help",
+  "confidence": 0.902,
+  "language": "en",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "I didn't get the password reset email",
+  "intent": "account_help",
+  "confidence": 0.946,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "My account is locked",
+  "intent": "account_help",
+  "confidence": 0.918,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "The app won't open",
+  "intent": "account_help",
+  "confidence": 0.975,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "I want to change my email address",
+  "intent": "account_help",
+  "confidence": 0.751,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "The website shows an error",
+  "intent": "account_help",
+  "confidence": 0.901,
+  "language": "en",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "I get an error when signing in",
+  "intent": "account_help",
+  "confidence": 0.826,
+  "language": "en",
+  "language_confidence": 0.945
+ },
+ {
+  "text": "I want to delete my account",
+  "intent": "account_help",
+  "confidence": 0.919,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "The verification code isn't coming",
+  "intent": "account_help",
+  "confidence": 0.868,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "I need to update my phone number",
+  "intent": "account_help",
+  "confidence": 0.836,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "I can't add items to my cart",
+  "intent": "account_help",
+  "confidence": 0.88,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "The page won't load",
+  "intent": "account_help",
+  "confidence": 0.875,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Reset my password",
+  "intent": "account_help",
+  "confidence": 0.926,
+  "language": "en",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "The app freezes",
+  "intent": "account_help",
+  "confidence": 0.918,
+  "language": "en",
+  "language_confidence": 0.945
+ },
+ {
+  "text": "I can't sign up",
+  "intent": "account_help",
+  "confidence": 0.883,
+  "language": "en",
+  "language_confidence": 0.943
+ },
+ {
+  "text": "I didn't receive the SMS code",
+  "intent": "account_help",
+  "confidence": 0.854,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Update my account details",
+  "intent": "account_help",
+  "confidence": 0.949,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "Something is wrong with the app",
+  "intent": "account_help",
+  "confidence": 0.843,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "Müşteri temsilcisiyle görüşmek istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.947,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Bir insanla konuşmak istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.947,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Canlı destek var mı?",
+  "intent": "human_agent",
+  "confidence": 0.86,
+  "language": "tr",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Beni yetkiliye bağlayın",
+  "intent": "human_agent",
+  "confidence": 0.907,
+  "language": "tr",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Botla değil gerçek biriyle konuşmak istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.926,
+  "language": "tr",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Telefon numaranız nedir?",
+  "intent": "human_agent",
+  "confidence": 0.853,
+  "language": "tr",
+  "language_confidence": 0.935
+ },
+ {
+  "text": "Sizi arayabilir miyim?",
+  "intent": "human_agent",
+  "confidence": 0.852,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Temsilci lütfen",
+  "intent": "human_agent",
+  "confidence": 0.892,
+  "language": "tr",
+  "language_confidence": 0.931
+ },
+ {
+  "text": "Yöneticinizle görüşmek istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.896,
+  "language": "tr",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Şikayetimi bir yetkiliye iletmek istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.915,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Müşteri hizmetlerini aramak istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.871,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Canlı temsilciye aktar",
+  "intent": "human_agent",
+  "confidence": 0.891,
+  "language": "tr",
+  "language_confidence": 0.928
+ },
+ {
+  "text": "Robotla konuşmak istemiyorum",
+  "intent": "human_agent",
+  "confidence": 0.887,
+  "language": "tr",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Bir yetkili beni arasın",
+  "intent": "human_agent",
+  "confidence": 0.921,
+  "language": "tr",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Gercek bir insan var mi",
+  "intent": "human_agent",
+  "confidence": 0.908,
+  "language": "tr",
+  "language_confidence": 0.925
+ },
+ {
+  "text": "Şikayet etmek istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.844,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Bu sorunu bir insana anlatmam lazım",
+  "intent": "human_agent",
+  "confidence": 0.841,
+  "language": "tr",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "Beni geri arayın",
+  "intent": "human_agent",
+  "confidence": 0.87,
+  "language": "tr",
+  "language_confidence": 0.958
+ },
+ {
+  "text": "İnsan lütfen",
+  "intent": "human_agent",
+  "confidence": 0.891,
+  "language": "tr",
+  "language_confidence": 0.913
+ },
+ {
+  "text": "I want to talk to a human",
+  "intent": "human_agent",
+  "confidence": 0.976,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Can I speak to a real person?",
+  "intent": "human_agent",
+  "confidence": 0.975,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Connect me to an agent",
+  "intent": "human_agent",
+  "confidence": 0.929,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Is there live chat?",
+  "intent": "human_agent",
+  "confidence": 0.808,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Agent please",
+  "intent": "human_agent",
+  "confidence": 0.897,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "I don't want to talk to a bot",
+  "intent": "human_agent",
+  "confidence": 0.908,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "What is your phone number?",
+  "intent": "human_agent",
+  "confidence": 0.859,
+  "language": "en",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "Can I call you?",
+  "intent": "human_agent",
+  "confidence": 0.837,
+  "language": "en",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "Let me speak to your manager",
+  "intent": "human_agent",
+  "confidence": 0.919,
+  "language": "en",
+  "language_confidence": 0.944
+ },
+ {
+  "text": "I want to file a complaint",
+  "intent": "human_agent",
+  "confidence": 0.897,
+  "language": "en",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Transfer me to customer service",
+  "intent": "human_agent",
+  "confidence": 0.878,
+  "language": "en",
+  "language_confidence": 0.961
+ },
+ {
+  "text": "Representative please",
+  "intent": "human_agent",
+  "confidence": 0.85,
+  "language": "en",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Get me a real human",
+  "intent": "human_agent",
+  "confidence": 0.932,
+  "language": "en",
+  "language_confidence": 0.939
+ },
+ {
+  "text": "Have someone call me back",
+  "intent": "human_agent",
+  "confidence": 0.897,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "I need to speak with a supervisor",
+  "intent": "human_agent",
+  "confidence": 0.889,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Human please",
+  "intent": "human_agent",
+  "confidence": 0.91,
+  "language": "en",
+  "language_confidence": 0.913
+ },
+ {
+  "text": "I want to escalate this",
+  "intent": "human_agent",
+  "confidence": 0.848,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Customer service phone number?",
+  "intent": "human_agent",
+  "confidence": 0.874,
+  "language": "en",
+  "language_confidence": 0.94
+ },
+ {
+  "text": "Talk to a person",
+  "intent": "human_agent",
+  "confidence": 0.945,
+  "language": "en",
+  "language_confidence": 0.932
+ },
+ {
+  "text": "This bot is useless, get me a person",
+  "intent": "human_agent",
+  "confidence": 0.904,
+  "language": "en",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Hava bugün nasıl?",
+  "intent": "out_of_scope",
+  "confidence": 0.942,
+  "language": "tr",
+  "language_confidence": 0.948
+ },
+ {
+  "text": "Bana bir fıkra anlat",
+  "intent": "out_of_scope",
+  "confidence": 0.936,
+  "language": "tr",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Maç kaç kaç bitti?",
+  "intent": "out_of_scope",
+  "confidence": 0.926,
+  "language": "tr",
+  "language_confidence": 0.957
+ },
+ {
+  "text": "Yemek tarifi verir misin?",
+  "intent": "out_of_scope",
+  "confidence": 0.927,
+  "language": "tr",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "Bugün günlerden ne?",
+  "intent": "out_of_scope",
+  "confidence": 0.913,
+  "language": "tr",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "En sevdiğin film hangisi?",
+  "intent": "out_of_scope",
+  "confidence": 0.868,
+  "language": "tr",
+  "language_confidence": 0.909
+ },
+ {
+  "text": "Dolar kaç lira?",
+  "intent": "out_of_scope",
+  "confidence": 0.896,
+  "language": "tr",
+  "language_confidence": 0.961
+ },
+ {
+  "text": "Bana şiir yaz",
+  "intent": "out_of_scope",
+  "confidence": 0.91,
+  "language": "tr",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Kaç yaşındasın?",
+  "intent": "out_of_scope",
+  "confidence": 0.908,
+  "language": "tr",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Hayatın anlamı ne?",
+  "intent": "out_of_scope",
+  "confidence": 0.878,
+  "language": "tr",
+  "language_confidence": 0.956
+ },
+ {
+  "text": "Ödevime yardım eder misin?",
+  "intent": "out_of_scope",
+  "confidence": 0.847,
+  "language": "tr",
+  "language_confidence": 0.955
+ },
+ {
+  "text": "İstanbul'da gezilecek yerler",
+  "intent": "out_of_scope",
+  "confidence": 0.865,
+  "language": "tr",
+  "language_confidence": 0.934
+ },
+ {
+  "text": "Benimle evlenir misin",
+  "intent": "out_of_scope",
+  "confidence": 0.921,
+  "language": "tr",
+  "language_confidence": 0.961
+ },
+ {
+  "text": "Saat kaç?",
+  "intent": "out_of_scope",
+  "confidence": 0.913,
+  "language": "tr",
+  "language_confidence": 0.934
+ },
+ {
+  "text": "Bitcoin alınır mı?",
+  "intent": "out_of_scope",
+  "confidence": 0.895,
+  "language": "tr",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Bana bir kitap öner",
+  "intent": "out_of_scope",
+  "confidence": 0.919,
+  "language": "tr",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "Nasıl kilo veririm?",
+  "intent": "out_of_scope",
+  "confidence": 0.863,
+  "language": "tr",
+  "language_confidence": 0.96
+ },
+ {
+  "text": "Hangi takımı tutuyorsun?",
+  "intent": "out_of_scope",
+  "confidence": 0.867,
+  "language": "tr",
+  "language_confidence": 0.925
+ },
+ {
+  "text": "asdfgh",
+  "intent": "out_of_scope",
+  "confidence": 0.879,
+  "language": "tr",
+  "language_confidence": 0.828
+ },
+ {
+  "text": "Bugün çok sıkıldım",
+  "intent": "out_of_scope",
+  "confidence": 0.923,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "What's the weather today?",
+  "intent": "out_of_scope",
+  "confidence": 0.919,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Tell me a joke",
+  "intent": "out_of_scope",
+  "confidence": 0.926,
+  "language": "en",
+  "language_confidence": 0.927
+ },
+ {
+  "text": "Who won the game last night?",
+  "intent": "out_of_scope",
+  "confidence": 0.908,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Give me a recipe",
+  "intent": "out_of_scope",
+  "confidence": 0.899,
+  "language": "en",
+  "language_confidence": 0.952
+ },
+ {
+  "text": "What day is it?",
+  "intent": "out_of_scope",
+  "confidence": 0.935,
+  "language": "en",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "What's your favorite movie?",
+  "intent": "out_of_scope",
+  "confidence": 0.895,
+  "language": "en",
+  "language_confidence": 0.946
+ },
+ {
+  "text": "How much is a bitcoin?",
+  "intent": "out_of_scope",
+  "confidence": 0.923,
+  "language": "en",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Write me a poem",
+  "intent": "out_of_scope",
+  "confidence": 0.902,
+  "language": "en",
+  "language_confidence": 0.919
+ },
+ {
+  "text": "How old are you?",
+  "intent": "out_of_scope",
+  "confidence": 0.862,
+  "language": "en",
+  "language_confidence": 0.95
+ },
+ {
+  "text": "What is the meaning of life?",
+  "intent": "out_of_scope",
+  "confidence": 0.903,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Can you help with my homework?",
+  "intent": "out_of_scope",
+  "confidence": 0.813,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Best places to visit in Paris",
+  "intent": "out_of_scope",
+  "confidence": 0.848,
+  "language": "en",
+  "language_confidence": 0.923
+ },
+ {
+  "text": "Will you marry me?",
+  "intent": "out_of_scope",
+  "confidence": 0.9,
+  "language": "en",
+  "language_confidence": 0.931
+ },
+ {
+  "text": "What time is it?",
+  "intent": "out_of_scope",
+  "confidence": 0.921,
+  "language": "en",
+  "language_confidence": 0.955
+ },
+ {
+  "text": "Recommend me a book",
+  "intent": "out_of_scope",
+  "confidence": 0.9,
+  "language": "en",
+  "language_confidence": 0.934
+ },
+ {
+  "text": "How do I lose weight?",
+  "intent": "out_of_scope",
+  "confidence": 0.886,
+  "language": "en",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "Which football team do you support?",
+  "intent": "out_of_scope",
+  "confidence": 0.859,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "qwerty",
+  "intent": "out_of_scope",
+  "confidence": 0.869,
+  "language": "en",
+  "language_confidence": 0.855
+ },
+ {
+  "text": "I'm bored",
+  "intent": "out_of_scope",
+  "confidence": 0.855,
+  "language": "en",
+  "language_confidence": 0.845
+ },
+ {
+  "text": "Who is the president?",
+  "intent": "out_of_scope",
+  "confidence": 0.891,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Merhaba, bir sorum olacaktı",
+  "intent": "greeting",
+  "confidence": 0.942,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Selam, yardım alabilir miyim",
+  "intent": "greeting",
+  "confidence": 0.886,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Günaydın, yardım lazım",
+  "intent": "greeting",
+  "confidence": 0.93,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "İyi akşamlar, bir sorum var",
+  "intent": "greeting",
+  "confidence": 0.913,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Merhaba müşteri hizmetleri",
+  "intent": "greeting",
+  "confidence": 0.894,
+  "language": "tr",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Selam merhaba",
+  "intent": "greeting",
+  "confidence": 0.995,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Merhaba, kimse var mı",
+  "intent": "greeting",
+  "confidence": 0.956,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Günaydın efendim",
+  "intent": "greeting",
+  "confidence": 0.891,
+  "language": "tr",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "İyi günler, bir konuda bilgi almak istiyorum",
+  "intent": "greeting",
+  "confidence": 0.851,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Slm, bir şey soracağım",
+  "intent": "greeting",
+  "confidence": 0.895,
+  "language": "tr",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Hello, I have a question",
+  "intent": "greeting",
+  "confidence": 0.952,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Hi, anyone here?",
+  "intent": "greeting",
+  "confidence": 0.922,
+  "language": "en",
+  "language_confidence": 0.942
+ },
+ {
+  "text": "Good morning, I need help",
+  "intent": "greeting",
+  "confidence": 0.967,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Hey, quick question",
+  "intent": "greeting",
+  "confidence": 0.942,
+  "language": "en",
+  "language_confidence": 0.935
+ },
+ {
+  "text": "Hi customer service",
+  "intent": "greeting",
+  "confidence": 0.882,
+  "language": "en",
+  "language_confidence": 0.959
+ },
+ {
+  "text": "Hello hello",
+  "intent": "greeting",
+  "confidence": 0.973,
+  "language": "en",
+  "language_confidence": 0.937
+ },
+ {
+  "text": "Hey, can someone help?",
+  "intent": "greeting",
+  "confidence": 0.909,
+  "language": "en",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "Good evening, I have a question",
+  "intent": "greeting",
+  "confidence": 0.936,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Hi, I'd like some information",
+  "intent": "greeting",
+  "confidence": 0.869,
+  "language": "en",
+  "language_confidence": 0.941
+ },
+ {
+  "text": "Yo, need help",
+  "intent": "greeting",
+  "confidence": 0.924,
+  "language": "en",
+  "language_confidence": 0.953
+ },
+ {
+  "text": "Çok teşekkürler, iyi günler",
+  "intent": "goodbye",
+  "confidence": 0.962,
+  "language": "tr",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Sağ olun",
+  "intent": "goodbye",
+  "confidence": 0.972,
+  "language": "tr",
+  "language_confidence": 0.946
+ },
+ {
+  "text": "Teşekkürler, hoşça kalın",
+  "intent": "goodbye",
+  "confidence": 0.994,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Tamam teşekkür ederim, iyi akşamlar",
+  "intent": "goodbye",
+  "confidence": 0.964,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Başka bir sorum yok, teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.971,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Eyvallah sağ ol",
+  "intent": "goodbye",
+  "confidence": 0.932,
+  "language": "tr",
+  "language_confidence": 0.93
+ },
+ {
+  "text": "Görüşürüz",
+  "intent": "goodbye",
+  "confidence": 0.854,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Teşekkürler, çok yardımcı oldunuz",
+  "intent": "goodbye",
+  "confidence": 0.942,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "İyi çalışmalar, teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.984,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Tamam süper, teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.978,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Thank you, goodbye",
+  "intent": "goodbye",
+  "confidence": 0.991,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Thanks, see you",
+  "intent": "goodbye",
+  "confidence": 0.995,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Thanks, have a nice day",
+  "intent": "goodbye",
+  "confidence": 0.99,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Appreciate your help",
+  "intent": "goodbye",
+  "confidence": 0.875,
+  "language": "en",
+  "language_confidence": 0.952
+ },
+ {
+  "text": "That's it, no more questions",
+  "intent": "goodbye",
+  "confidence": 0.931,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Cheers, bye",
+  "intent": "goodbye",
+  "confidence": 0.968,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "Thanks so much",
+  "intent": "goodbye",
+  "confidence": 0.944,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Great, that's all",
+  "intent": "goodbye",
+  "confidence": 0.877,
+  "language": "en",
+  "language_confidence": 0.959
+ },
+ {
+  "text": "Ok bye",
+  "intent": "goodbye",
+  "confidence": 0.936,
+  "language": "en",
+  "language_confidence": 0.901
+ },
+ {
+  "text": "Thank you for the help, bye",
+  "intent": "goodbye",
+  "confidence": 0.968,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "Siparişim ne durumda?",
+  "intent": "order_status",
+  "confidence": 0.929,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Kargom gelmedi",
+  "intent": "order_status",
+  "confidence": 0.919,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Takip numaramı öğrenebilir miyim?",
+  "intent": "order_status",
+  "confidence": 0.877,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Paketim nerede?",
+  "intent": "order_status",
+  "confidence": 0.926,
+  "language": "tr",
+  "language_confidence": 0.899
+ },
+ {
+  "text": "Siparişim kargoya verildi mi?",
+  "intent": "order_status",
+  "confidence": 0.933,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Kargo ne zaman teslim edilecek?",
+  "intent": "order_status",
+  "confidence": 0.925,
+  "language": "tr",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "Siparişim gecikti, nerede?",
+  "intent": "order_status",
+  "confidence": 0.964,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Siparişimi kontrol eder misiniz?",
+  "intent": "order_status",
+  "confidence": 0.851,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Ürünüm hala yolda mı?",
+  "intent": "order_status",
+  "confidence": 0.859,
+  "language": "tr",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "Kargom hangi aşamada?",
+  "intent": "order_status",
+  "confidence": 0.938,
+  "language": "tr",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "Where is my package?",
+  "intent": "order_status",
+  "confidence": 0.955,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "My parcel hasn't arrived",
+  "intent": "order_status",
+  "confidence": 0.87,
+  "language": "en",
+  "language_confidence": 0.96
+ },
+ {
+  "text": "What's my tracking number?",
+  "intent": "order_status",
+  "confidence": 0.924,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "Check my order status",
+  "intent": "order_status",
+  "confidence": 0.975,
+  "language": "en",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Has my order been shipped?",
+  "intent": "order_status",
+  "confidence": 0.946,
+  "language": "en",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "When will my order be delivered?",
+  "intent": "order_status",
+  "confidence": 0.964,
+  "language": "en",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "My delivery is late, where is it?",
+  "intent": "order_status",
+  "confidence": 0.898,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Can you track my package?",
+  "intent": "order_status",
+  "confidence": 0.938,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Is my item still on the way?",
+  "intent": "order_status",
+  "confidence": 0.866,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "What stage is my order at?",
+  "intent": "order_status",
+  "confidence": 0.922,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Siparişi iptal etmek istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.992,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Siparişimi iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.993,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Siparişi durdurmak istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.9,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "İptal edebilir misiniz siparişi?",
+  "intent": "cancel_order",
+  "confidence": 0.974,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Vazgeçtim, iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.976,
+  "language": "tr",
+  "language_confidence": 0.958
+ },
+ {
+  "text": "Siparişimi geri çekin",
+  "intent": "cancel_order",
+  "confidence": 0.854,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Siparişi istemiyorum, iptal",
+  "intent": "cancel_order",
+  "confidence": 0.991,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Siparişimi iptal etmem lazım",
+  "intent": "cancel_order",
+  "confidence": 0.944,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Sipariş iptal etmek mümkün mü?",
+  "intent": "cancel_order",
+  "confidence": 0.962,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Sipariş verdim ama iptal etmek istiyorum",
+  "intent": "cancel_order",
+  "confidence": 0.936,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Cancel my order",
+  "intent": "cancel_order",
+  "confidence": 0.996,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "I need to cancel an order",
+  "intent": "cancel_order",
+  "confidence": 0.98,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Please stop and cancel my order",
+  "intent": "cancel_order",
+  "confidence": 0.99,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Can I cancel it?",
+  "intent": "cancel_order",
+  "confidence": 0.983,
+  "language": "en",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "I changed my mind, cancel it",
+  "intent": "cancel_order",
+  "confidence": 0.925,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Withdraw the order",
+  "intent": "cancel_order",
+  "confidence": 0.878,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "I no longer want this order, cancel",
+  "intent": "cancel_order",
+  "confidence": 0.953,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Cancel the purchase please",
+  "intent": "cancel_order",
+  "confidence": 0.925,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Is cancelling my order possible?",
+  "intent": "cancel_order",
+  "confidence": 0.885,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "I placed an order but want to cancel it",
+  "intent": "cancel_order",
+  "confidence": 0.968,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "İade talebi oluşturmak istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.91,
+  "language": "tr",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Ürünü değiştirmek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.884,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Para iadesi ne zaman yapılır?",
+  "intent": "return_refund",
+  "confidence": 0.95,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "İade parası hesabıma geçmedi",
+  "intent": "return_refund",
+  "confidence": 0.925,
+  "language": "tr",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "Ürün hatalı geldi, iade",
+  "intent": "return_refund",
+  "confidence": 0.963,
+  "language": "tr",
+  "language_confidence": 0.964
+ },
+ {
+  "text": "Değişim talebi",
+  "intent": "return_refund",
+  "confidence": 0.852,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Ürünü geri göndermek istiyorum, nasıl yaparım?",
+  "intent": "return_refund",
+  "confidence": 0.93,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "İade kodu istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.956,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Bedenini değiştirmek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.829,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Paramı geri alabilir miyim?",
+  "intent": "return_refund",
+  "confidence": 0.894,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "I want to start a return",
+  "intent": "return_refund",
+  "confidence": 0.934,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "I want to exchange this product",
+  "intent": "return_refund",
+  "confidence": 0.928,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "When do I get my money back?",
+  "intent": "return_refund",
+  "confidence": 0.911,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "The refund isn't on my account yet",
+  "intent": "return_refund",
+  "confidence": 0.899,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "The item is faulty, I want to return it",
+  "intent": "return_refund",
+  "confidence": 0.954,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Exchange request",
+  "intent": "return_refund",
+  "confidence": 0.853,
+  "language": "en",
+  "language_confidence": 0.943
+ },
+ {
+  "text": "How can I send the product back?",
+  "intent": "return_refund",
+  "confidence": 0.921,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "I need a return code",
+  "intent": "return_refund",
+  "confidence": 0.92,
+  "language": "en",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Can I swap it for a different size?",
+  "intent": "return_refund",
+  "confidence": 0.815,
+  "language": "en",
+  "language_confidence": 0.934
+ },
+ {
+  "text": "Can I get my money back?",
+  "intent": "return_refund",
+  "confidence": 0.923,
+  "language": "en",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Adresimi değiştirmek istiyorum",
+  "intent": "change_address",
+  "confidence": 0.803,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Teslimat adresini değiştirebilir misiniz?",
+  "intent": "change_address",
+  "confidence": 0.981,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Kargo başka adrese gitsin",
+  "intent": "change_address",
+  "confidence": 0.911,
+  "language": "tr",
+  "language_confidence": 0.958
+ },
+ {
+  "text": "Adres yanlış, düzeltin",
+  "intent": "change_address",
+  "confidence": 0.954,
+  "language": "tr",
+  "language_confidence": 0.947
+ },
+ {
+  "text": "Yeni adresime gönderebilir misiniz?",
+  "intent": "change_address",
+  "confidence": 0.964,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Posta kodu yanlış",
+  "intent": "change_address",
+  "confidence": 0.823,
+  "language": "tr",
+  "language_confidence": 0.952
+ },
+ {
+  "text": "Siparişi farklı adrese gönderin",
+  "intent": "change_address",
+  "confidence": 0.935,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "Teslimat adresimi güncellemek istiyorum",
+  "intent": "change_address",
+  "confidence": 0.886,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Ofis adresime gönderin",
+  "intent": "change_address",
+  "confidence": 0.948,
+  "language": "tr",
+  "language_confidence": 0.904
+ },
+ {
+  "text": "Adresimde hata var",
+  "intent": "change_address",
+  "confidence": 0.897,
+  "language": "tr",
+  "language_confidence": 0.955
+ },
+ {
+  "text": "Change my address",
+  "intent": "change_address",
+  "confidence": 0.971,
+  "language": "en",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Can you change the delivery address?",
+  "intent": "change_address",
+  "confidence": 0.981,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "Send the package to another address",
+  "intent": "change_address",
+  "confidence": 0.957,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "The address is wrong, fix it",
+  "intent": "change_address",
+  "confidence": 0.974,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Ship it to my new address",
+  "intent": "change_address",
+  "confidence": 0.982,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "The zip code is wrong",
+  "intent": "change_address",
+  "confidence": 0.883,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Deliver my order to a different address",
+  "intent": "change_address",
+  "confidence": 0.97,
+  "language": "en",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "I want to update my delivery address",
+  "intent": "change_address",
+  "confidence": 0.922,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Send it to my work address",
+  "intent": "change_address",
+  "confidence": 0.966,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "My shipping address has a mistake",
+  "intent": "change_address",
+  "confidence": 0.934,
+  "language": "en",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Faturamı göremiyorum",
+  "intent": "payment_issue",
+  "confidence": 0.925,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Fatura istiyorum",
+  "intent": "payment_issue",
+  "confidence": 0.973,
+  "language": "tr",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "Kupon kodu geçersiz diyor",
+  "intent": "payment_issue",
+  "confidence": 0.875,
+  "language": "tr",
+  "language_confidence": 0.925
+ },
+ {
+  "text": "İndirim kodu çalışmıyor",
+  "intent": "payment_issue",
+  "confidence": 0.874,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Taksit yapılıyor mu?",
+  "intent": "payment_issue",
+  "confidence": 0.873,
+  "language": "tr",
+  "language_confidence": 0.936
+ },
+ {
+  "text": "Kartımdan para çekildi ama sipariş yok",
+  "intent": "payment_issue",
+  "confidence": 0.952,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Ödeme yapamıyorum, kart hata veriyor",
+  "intent": "payment_issue",
+  "confidence": 0.923,
+  "language": "tr",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Fazla ücret çekilmiş",
+  "intent": "payment_issue",
+  "confidence": 0.919,
+  "language": "tr",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Fatura adresimi değiştirmek istiyorum",
+  "intent": "payment_issue",
+  "confidence": 0.853,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Ödeme yöntemleri nelerdir?",
+  "intent": "payment_issue",
+  "confidence": 0.926,
+  "language": "tr",
+  "language_confidence": 0.964
+ },
+ {
+  "text": "I need my invoice",
+  "intent": "payment_issue",
+  "confidence": 0.968,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Where is my invoice?",
+  "intent": "payment_issue",
+  "confidence": 0.922,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "The coupon says invalid",
+  "intent": "payment_issue",
+  "confidence": 0.884,
+  "language": "en",
+  "language_confidence": 0.935
+ },
+ {
+  "text": "Discount code not working",
+  "intent": "payment_issue",
+  "confidence": 0.857,
+  "language": "en",
+  "language_confidence": 0.971
+ },
+ {
+  "text": "Can I pay in installments?",
+  "intent": "payment_issue",
+  "confidence": 0.886,
+  "language": "en",
+  "language_confidence": 0.879
+ },
+ {
+  "text": "My card was charged but there's no order",
+  "intent": "payment_issue",
+  "confidence": 0.983,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "I can't pay, my card gives an error",
+  "intent": "payment_issue",
+  "confidence": 0.912,
+  "language": "en",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "I was overcharged",
+  "intent": "payment_issue",
+  "confidence": 0.919,
+  "language": "en",
+  "language_confidence": 0.947
+ },
+ {
+  "text": "Change my billing address",
+  "intent": "payment_issue",
+  "confidence": 0.818,
+  "language": "en",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "Which payment options do you have?",
+  "intent": "payment_issue",
+  "confidence": 0.907,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Şifremi sıfırlamak istiyorum",
+  "intent": "account_help",
+  "confidence": 0.901,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Hesabıma giremiyorum",
+  "intent": "account_help",
+  "confidence": 0.939,
+  "language": "tr",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Uygulama hata veriyor",
+  "intent": "account_help",
+  "confidence": 0.967,
+  "language": "tr",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "E-posta adresimi güncellemek istiyorum",
+  "intent": "account_help",
+  "confidence": 0.881,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Telefon numaramı değiştirmek istiyorum",
+  "intent": "account_help",
+  "confidence": 0.858,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Doğrulama SMS'i gelmiyor",
+  "intent": "account_help",
+  "confidence": 0.969,
+  "language": "tr",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Üyelik oluşturamıyorum",
+  "intent": "account_help",
+  "confidence": 0.858,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Hesabım askıya alındı",
+  "intent": "account_help",
+  "confidence": 0.885,
+  "language": "tr",
+  "language_confidence": 0.97
+ },
+ {
+  "text": "I need to reset my password",
+  "intent": "account_help",
+  "confidence": 0.923,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "I can't access my account",
+  "intent": "account_help",
+  "confidence": 0.966,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "The app shows an error",
+  "intent": "account_help",
+  "confidence": 0.953,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Update my email address",
+  "intent": "account_help",
+  "confidence": 0.908,
+  "language": "en",
+  "language_confidence": 0.908
+ },
+ {
+  "text": "Change my phone number on my account",
+  "intent": "account_help",
+  "confidence": 0.948,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "Close my account",
+  "intent": "account_help",
+  "confidence": 0.941,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Verification SMS not received",
+  "intent": "account_help",
+  "confidence": 0.914,
+  "language": "en",
+  "language_confidence": 0.919
+ },
+ {
+  "text": "I can't create an account",
+  "intent": "account_help",
+  "confidence": 0.935,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "The website won't open",
+  "intent": "account_help",
+  "confidence": 0.932,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "My account was suspended",
+  "intent": "account_help",
+  "confidence": 0.907,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Telefonla görüşmek istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.91,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Müşteri hizmetleri telefon numarası nedir?",
+  "intent": "human_agent",
+  "confidence": 0.872,
+  "language": "tr",
+  "language_confidence": 0.957
+ },
+ {
+  "text": "Beni arayabilir misiniz?",
+  "intent": "human_agent",
+  "confidence": 0.896,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Bir temsilci ile konuşabilir miyim?",
+  "intent": "human_agent",
+  "confidence": 0.898,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Canlı desteğe bağlanmak istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.891,
+  "language": "tr",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Yetkili biriyle görüşmek istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.953,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Gerçek bir kişiyle konuşmak istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.938,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "Şikayetim var, yetkili lazım",
+  "intent": "human_agent",
+  "confidence": 0.894,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Botla konuşmak istemiyorum, insan istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.957,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Süpervizörle görüşmek istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.919,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "I want to call customer service",
+  "intent": "human_agent",
+  "confidence": 0.946,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "Give me your phone number",
+  "intent": "human_agent",
+  "confidence": 0.906,
+  "language": "en",
+  "language_confidence": 0.953
+ },
+ {
+  "text": "Can someone call me?",
+  "intent": "human_agent",
+  "confidence": 0.931,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "Can I talk to an agent?",
+  "intent": "human_agent",
+  "confidence": 0.929,
+  "language": "en",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "Connect me to live chat",
+  "intent": "human_agent",
+  "confidence": 0.933,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "I want to speak to someone in charge",
+  "intent": "human_agent",
+  "confidence": 0.926,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "I need a real person",
+  "intent": "human_agent",
+  "confidence": 0.874,
+  "language": "en",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "I have a complaint, get me a manager",
+  "intent": "human_agent",
+  "confidence": 0.896,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Stop the bot, I want a human",
+  "intent": "human_agent",
+  "confidence": 0.889,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Supervisor please",
+  "intent": "human_agent",
+  "confidence": 0.903,
+  "language": "en",
+  "language_confidence": 0.907
+ },
+ {
+  "text": "Bugün hava yağmurlu mu?",
+  "intent": "out_of_scope",
+  "confidence": 0.912,
+  "language": "tr",
+  "language_confidence": 0.934
+ },
+ {
+  "text": "Bir şaka yap",
+  "intent": "out_of_scope",
+  "confidence": 0.872,
+  "language": "tr",
+  "language_confidence": 0.957
+ },
+ {
+  "text": "Futbol maçı ne oldu?",
+  "intent": "out_of_scope",
+  "confidence": 0.917,
+  "language": "tr",
+  "language_confidence": 0.892
+ },
+ {
+  "text": "Pizza tarifi",
+  "intent": "out_of_scope",
+  "confidence": 0.888,
+  "language": "tr",
+  "language_confidence": 0.929
+ },
+ {
+  "text": "Sterlin ne kadar oldu?",
+  "intent": "out_of_scope",
+  "confidence": 0.881,
+  "language": "tr",
+  "language_confidence": 0.938
+ },
+ {
+  "text": "Benimle sohbet et",
+  "intent": "out_of_scope",
+  "confidence": 0.878,
+  "language": "tr",
+  "language_confidence": 0.805
+ },
+ {
+  "text": "Tatil için nereye gideyim?",
+  "intent": "out_of_scope",
+  "confidence": 0.867,
+  "language": "tr",
+  "language_confidence": 0.899
+ },
+ {
+  "text": "Matematik sorumu çözer misin?",
+  "intent": "out_of_scope",
+  "confidence": 0.889,
+  "language": "tr",
+  "language_confidence": 0.939
+ },
+ {
+  "text": "Sen kimsin?",
+  "intent": "out_of_scope",
+  "confidence": 0.877,
+  "language": "tr",
+  "language_confidence": 0.946
+ },
+ {
+  "text": "Çok sıkıcı bir gün",
+  "intent": "out_of_scope",
+  "confidence": 0.876,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Is it going to rain?",
+  "intent": "out_of_scope",
+  "confidence": 0.836,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Make me laugh",
+  "intent": "out_of_scope",
+  "confidence": 0.911,
+  "language": "en",
+  "language_confidence": 0.811
+ },
+ {
+  "text": "What was the score of the match?",
+  "intent": "out_of_scope",
+  "confidence": 0.914,
+  "language": "en",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "How do I bake a cake?",
+  "intent": "out_of_scope",
+  "confidence": 0.898,
+  "language": "en",
+  "language_confidence": 0.947
+ },
+ {
+  "text": "What's the euro exchange rate?",
+  "intent": "out_of_scope",
+  "confidence": 0.879,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Let's just chat",
+  "intent": "out_of_scope",
+  "confidence": 0.858,
+  "language": "en",
+  "language_confidence": 0.947
+ },
+ {
+  "text": "Where should I go on vacation?",
+  "intent": "out_of_scope",
+  "confidence": 0.868,
+  "language": "en",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Solve this math problem",
+  "intent": "out_of_scope",
+  "confidence": 0.863,
+  "language": "en",
+  "language_confidence": 0.943
+ },
+ {
+  "text": "Who are you?",
+  "intent": "out_of_scope",
+  "confidence": 0.907,
+  "language": "en",
+  "language_confidence": 0.97
+ },
+ {
+  "text": "This is such a boring day",
+  "intent": "out_of_scope",
+  "confidence": 0.889,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "Kartla ödeme yaparken hata alıyorum",
+  "intent": "payment_issue",
+  "confidence": 0.9,
+  "language": "tr",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Kart bilgilerimi girince ödeme başarısız oluyor",
+  "intent": "payment_issue",
+  "confidence": 0.911,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Fatura e-posta adresime gelmedi",
+  "intent": "payment_issue",
+  "confidence": 0.907,
+  "language": "tr",
+  "language_confidence": 0.947
+ },
+ {
+  "text": "Faturayı nereden indirebilirim?",
+  "intent": "payment_issue",
+  "confidence": 0.897,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "Fatura adresimi güncellemek istiyorum",
+  "intent": "payment_issue",
+  "confidence": 0.877,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "Fazla para çektiniz",
+  "intent": "payment_issue",
+  "confidence": 0.908,
+  "language": "tr",
+  "language_confidence": 0.97
+ },
+ {
+  "text": "Ödeme sırasında bankadan onay gelmedi",
+  "intent": "payment_issue",
+  "confidence": 0.906,
+  "language": "tr",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "3D Secure şifresi gelmiyor, ödeme yapamıyorum",
+  "intent": "payment_issue",
+  "confidence": 0.909,
+  "language": "tr",
+  "language_confidence": 0.961
+ },
+ {
+  "text": "Hediye çekim geçmiyor",
+  "intent": "payment_issue",
+  "confidence": 0.886,
+  "language": "tr",
+  "language_confidence": 0.959
+ },
+ {
+  "text": "Çekilen tutar sepetteki tutardan fazla",
+  "intent": "payment_issue",
+  "confidence": 0.912,
+  "language": "tr",
+  "language_confidence": 0.944
+ },
+ {
+  "text": "I get an error when paying with my card",
+  "intent": "payment_issue",
+  "confidence": 0.864,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Payment fails after I enter my card details",
+  "intent": "payment_issue",
+  "confidence": 0.961,
+  "language": "en",
+  "language_confidence": 0.939
+ },
+ {
+  "text": "The invoice didn't arrive in my email",
+  "intent": "payment_issue",
+  "confidence": 0.902,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Where can I download my invoice?",
+  "intent": "payment_issue",
+  "confidence": 0.924,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Update the billing address on my invoice",
+  "intent": "payment_issue",
+  "confidence": 0.945,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "You took more money than the total",
+  "intent": "payment_issue",
+  "confidence": 0.818,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "My bank didn't send the 3D Secure code, payment failed",
+  "intent": "payment_issue",
+  "confidence": 0.935,
+  "language": "en",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "My gift card isn't accepted",
+  "intent": "payment_issue",
+  "confidence": 0.901,
+  "language": "en",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "The amount charged is higher than my cart",
+  "intent": "payment_issue",
+  "confidence": 0.897,
+  "language": "en",
+  "language_confidence": 0.998
+ },
+ {
+  "text": "Payment keeps failing at checkout",
+  "intent": "payment_issue",
+  "confidence": 0.934,
+  "language": "en",
+  "language_confidence": 0.958
+ },
+ {
+  "text": "Hesabımdaki e-posta adresini değiştirmek istiyorum",
+  "intent": "account_help",
+  "confidence": 0.905,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Hesabımdaki telefon numarasını güncelleyin",
+  "intent": "account_help",
+  "confidence": 0.895,
+  "language": "tr",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "Şifre değiştirme ekranı açılmıyor",
+  "intent": "account_help",
+  "confidence": 0.897,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Sepete ekle butonu çalışmıyor",
+  "intent": "account_help",
+  "confidence": 0.865,
+  "language": "tr",
+  "language_confidence": 0.94
+ },
+ {
+  "text": "Uygulamaya giriş yapınca beni atıyor",
+  "intent": "account_help",
+  "confidence": 0.907,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Hesabıma başka biri girmiş olabilir",
+  "intent": "account_help",
+  "confidence": 0.869,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Kullanıcı adımı unuttum",
+  "intent": "account_help",
+  "confidence": 0.862,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Bildirimler gelmiyor",
+  "intent": "account_help",
+  "confidence": 0.872,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "Hesap ayarlarını nereden değiştiririm?",
+  "intent": "account_help",
+  "confidence": 0.851,
+  "language": "tr",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Profil bilgilerimi düzenleyemiyorum",
+  "intent": "account_help",
+  "confidence": 0.883,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Change the email on my account",
+  "intent": "account_help",
+  "confidence": 0.961,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "Update the phone number on my profile",
+  "intent": "account_help",
+  "confidence": 0.918,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "The change password screen won't open",
+  "intent": "account_help",
+  "confidence": 0.93,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "The add to cart button doesn't work",
+  "intent": "account_help",
+  "confidence": 0.846,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "The app logs me out",
+  "intent": "account_help",
+  "confidence": 0.898,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "I think someone accessed my account",
+  "intent": "account_help",
+  "confidence": 0.911,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "I forgot my username",
+  "intent": "account_help",
+  "confidence": 0.86,
+  "language": "en",
+  "language_confidence": 0.932
+ },
+ {
+  "text": "I'm not getting notifications",
+  "intent": "account_help",
+  "confidence": 0.845,
+  "language": "en",
+  "language_confidence": 0.931
+ },
+ {
+  "text": "Where are my account settings?",
+  "intent": "account_help",
+  "confidence": 0.903,
+  "language": "en",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "I can't edit my profile",
+  "intent": "account_help",
+  "confidence": 0.895,
+  "language": "en",
+  "language_confidence": 0.97
+ },
+ {
+  "text": "Dün akşamki maçı kim kazandı?",
+  "intent": "out_of_scope",
+  "confidence": 0.879,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Bana bir yemek tarifi ver",
+  "intent": "out_of_scope",
+  "confidence": 0.95,
+  "language": "tr",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Bugün ne yesem?",
+  "intent": "out_of_scope",
+  "confidence": 0.935,
+  "language": "tr",
+  "language_confidence": 0.916
+ },
+ {
+  "text": "Bana hikaye anlat",
+  "intent": "out_of_scope",
+  "confidence": 0.914,
+  "language": "tr",
+  "language_confidence": 0.852
+ },
+ {
+  "text": "Sence yapay zeka dünyayı ele geçirecek mi?",
+  "intent": "out_of_scope",
+  "confidence": 0.862,
+  "language": "tr",
+  "language_confidence": 0.915
+ },
+ {
+  "text": "Borsa yükselecek mi?",
+  "intent": "out_of_scope",
+  "confidence": 0.884,
+  "language": "tr",
+  "language_confidence": 0.918
+ },
+ {
+  "text": "Türkiye'nin başkenti neresi?",
+  "intent": "out_of_scope",
+  "confidence": 0.864,
+  "language": "tr",
+  "language_confidence": 0.952
+ },
+ {
+  "text": "Bana müzik çal",
+  "intent": "out_of_scope",
+  "confidence": 0.911,
+  "language": "tr",
+  "language_confidence": 0.971
+ },
+ {
+  "text": "Ders çalışmam lazım ama canım istemiyor",
+  "intent": "out_of_scope",
+  "confidence": 0.805,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Hangi diziyi izleyeyim?",
+  "intent": "out_of_scope",
+  "confidence": 0.865,
+  "language": "tr",
+  "language_confidence": 0.95
+ },
+ {
+  "text": "Who won the match yesterday?",
+  "intent": "out_of_scope",
+  "confidence": 0.94,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "Share a recipe with me",
+  "intent": "out_of_scope",
+  "confidence": 0.927,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "What should I eat today?",
+  "intent": "out_of_scope",
+  "confidence": 0.951,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Tell me a story",
+  "intent": "out_of_scope",
+  "confidence": 0.915,
+  "language": "en",
+  "language_confidence": 0.956
+ },
+ {
+  "text": "Will AI take over the world?",
+  "intent": "out_of_scope",
+  "confidence": 0.885,
+  "language": "en",
+  "language_confidence": 0.963
+ },
+ {
+  "text": "Will the stock market go up?",
+  "intent": "out_of_scope",
+  "confidence": 0.887,
+  "language": "en",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "What is the capital of Turkey?",
+  "intent": "out_of_scope",
+  "confidence": 0.909,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Play some music",
+  "intent": "out_of_scope",
+  "confidence": 0.863,
+  "language": "en",
+  "language_confidence": 0.893
+ },
+ {
+  "text": "I need to study but I don't feel like it",
+  "intent": "out_of_scope",
+  "confidence": 0.821,
+  "language": "en",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Which series should I watch?",
+  "intent": "out_of_scope",
+  "confidence": 0.921,
+  "language": "en",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "Görüşmek üzere, teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.99,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Kendinize iyi bakın, sağ olun",
+  "intent": "goodbye",
+  "confidence": 0.982,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Tamamdır, iyi geceler",
+  "intent": "goodbye",
+  "confidence": 0.881,
+  "language": "tr",
+  "language_confidence": 0.951
+ },
+ {
+  "text": "Hepsi bu kadar, sağ olun",
+  "intent": "goodbye",
+  "confidence": 0.921,
+  "language": "tr",
+  "language_confidence": 0.939
+ },
+ {
+  "text": "Teşekkürler, çok naziksiniz",
+  "intent": "goodbye",
+  "confidence": 0.949,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Peki, teşekkür ederim",
+  "intent": "goodbye",
+  "confidence": 0.926,
+  "language": "tr",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "Anladım, sağ olun",
+  "intent": "goodbye",
+  "confidence": 0.925,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Oldu, teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.962,
+  "language": "tr",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "İşimi çözdünüz, teşekkürler",
+  "intent": "goodbye",
+  "confidence": 0.932,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "Hoşça kalın, iyi günler",
+  "intent": "goodbye",
+  "confidence": 0.884,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "Have a nice day, bye",
+  "intent": "goodbye",
+  "confidence": 0.964,
+  "language": "en",
+  "language_confidence": 0.972
+ },
+ {
+  "text": "Take care, thanks",
+  "intent": "goodbye",
+  "confidence": 0.932,
+  "language": "en",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "Good night, thanks",
+  "intent": "goodbye",
+  "confidence": 0.95,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "That's everything, thank you",
+  "intent": "goodbye",
+  "confidence": 0.943,
+  "language": "en",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Thanks, you're very kind",
+  "intent": "goodbye",
+  "confidence": 0.937,
+  "language": "en",
+  "language_confidence": 0.948
+ },
+ {
+  "text": "Alright, thank you",
+  "intent": "goodbye",
+  "confidence": 0.933,
+  "language": "en",
+  "language_confidence": 0.926
+ },
+ {
+  "text": "Understood, thanks",
+  "intent": "goodbye",
+  "confidence": 0.938,
+  "language": "en",
+  "language_confidence": 0.951
+ },
+ {
+  "text": "Sounds good, thanks",
+  "intent": "goodbye",
+  "confidence": 0.946,
+  "language": "en",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "You solved it, thanks",
+  "intent": "goodbye",
+  "confidence": 0.966,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Bye, have a good one",
+  "intent": "goodbye",
+  "confidence": 0.906,
+  "language": "en",
+  "language_confidence": 0.989
+ },
+ {
+  "text": "Hi, how's it going?",
+  "intent": "greeting",
+  "confidence": 0.866,
+  "language": "en",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Hey, how are you?",
+  "intent": "greeting",
+  "confidence": 0.886,
+  "language": "en",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "Hello, good to reach you",
+  "intent": "greeting",
+  "confidence": 0.918,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "Siparişimi nereden takip ederim?",
+  "intent": "order_status",
+  "confidence": 0.932,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "Kargo takibi yapmak istiyorum",
+  "intent": "order_status",
+  "confidence": 0.858,
+  "language": "tr",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "Track my package",
+  "intent": "order_status",
+  "confidence": 0.972,
+  "language": "en",
+  "language_confidence": 0.94
+ },
+ {
+  "text": "Where can I track my order?",
+  "intent": "order_status",
+  "confidence": 0.946,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Siparişi durdurup iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.988,
+  "language": "tr",
+  "language_confidence": 0.96
+ },
+ {
+  "text": "Stop my order, I don't want it",
+  "intent": "cancel_order",
+  "confidence": 0.926,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Siparişin gideceği yeri değiştirin",
+  "intent": "change_address",
+  "confidence": 0.861,
+  "language": "tr",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "Başka şehre teslim edin",
+  "intent": "change_address",
+  "confidence": 0.845,
+  "language": "tr",
+  "language_confidence": 0.964
+ },
+ {
+  "text": "Change where my package goes",
+  "intent": "change_address",
+  "confidence": 0.834,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "Deliver it to another city",
+  "intent": "change_address",
+  "confidence": 0.903,
+  "language": "en",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "İade için kaç günüm var?",
+  "intent": "return_refund",
+  "confidence": 0.889,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Para iadesi hesabımda görünmüyor",
+  "intent": "return_refund",
+  "confidence": 0.885,
+  "language": "tr",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "The refund is not showing in my bank account",
+  "intent": "return_refund",
+  "confidence": 0.888,
+  "language": "en",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "What is the return period?",
+  "intent": "return_refund",
+  "confidence": 0.89,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "Merhaba iyi günler",
+  "intent": "greeting",
+  "confidence": 0.995,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "Selam, kimse var mı",
+  "intent": "greeting",
+  "confidence": 0.881,
+  "language": "tr",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "iyi aksamlar, yardim lazim",
+  "intent": "greeting",
+  "confidence": 0.918,
+  "language": "tr",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "Merhabalar efendim",
+  "intent": "greeting",
+  "confidence": 0.898,
+  "language": "tr",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "Günaydın, bir sorum olacak",
+  "intent": "greeting",
+  "confidence": 0.901,
+  "language": "tr",
+  "language_confidence": 0.973
+ },
+ {
+  "text": "merhaba destek",
+  "intent": "greeting",
+  "confidence": 0.924,
+  "language": "tr",
+  "language_confidence": 0.952
+ },
+ {
+  "text": "hi team",
+  "intent": "greeting",
+  "confidence": 0.87,
+  "language": "en",
+  "language_confidence": 0.727
+ },
+ {
+  "text": "hello, anybody here?",
+  "intent": "greeting",
+  "confidence": 0.938,
+  "language": "en",
+  "language_confidence": 0.937
+ },
+ {
+  "text": "good morning team",
+  "intent": "greeting",
+  "confidence": 0.934,
+  "language": "en",
+  "language_confidence": 0.948
+ },
+ {
+  "text": "hey, need help",
+  "intent": "greeting",
+  "confidence": 0.957,
+  "language": "en",
+  "language_confidence": 0.955
+ },
+ {
+  "text": "hellooo",
+  "intent": "greeting",
+  "confidence": 0.746,
+  "language": "en",
+  "language_confidence": 0.943
+ },
+ {
+  "text": "hi good evening",
+  "intent": "greeting",
+  "confidence": 0.985,
+  "language": "en",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "çok teşekkür ederim, iyi günler",
+  "intent": "goodbye",
+  "confidence": 0.938,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "tamam sağolun",
+  "intent": "goodbye",
+  "confidence": 0.93,
+  "language": "tr",
+  "language_confidence": 0.976
+ },
+ {
+  "text": "teşekkürler sorun kalmadı",
+  "intent": "goodbye",
+  "confidence": 0.954,
+  "language": "tr",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "harikasınız teşekkür ederim",
+  "intent": "goodbye",
+  "confidence": 0.918,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "iyi çalışmalar",
+  "intent": "goodbye",
+  "confidence": 0.719,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "cok tesekkurler",
+  "intent": "goodbye",
+  "confidence": 0.984,
+  "language": "tr",
+  "language_confidence": 0.739
+ },
+ {
+  "text": "thank you very much",
+  "intent": "goodbye",
+  "confidence": 0.899,
+  "language": "en",
+  "language_confidence": 0.98
+ },
+ {
+  "text": "ok thanks bye",
+  "intent": "goodbye",
+  "confidence": 0.998,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "thanks, that's all I needed",
+  "intent": "goodbye",
+  "confidence": 0.973,
+  "language": "en",
+  "language_confidence": 0.983
+ },
+ {
+  "text": "great help, thanks",
+  "intent": "goodbye",
+  "confidence": 0.967,
+  "language": "en",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "bye now",
+  "intent": "goodbye",
+  "confidence": 0.921,
+  "language": "en",
+  "language_confidence": 0.957
+ },
+ {
+  "text": "many thanks",
+  "intent": "goodbye",
+  "confidence": 0.938,
+  "language": "en",
+  "language_confidence": 0.948
+ },
+ {
+  "text": "sipariş verdim 5 gün oldu gelmedi",
+  "intent": "order_status",
+  "confidence": 0.512,
+  "language": "tr",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "kargom nerde acaba",
+  "intent": "order_status",
+  "confidence": 0.878,
+  "language": "tr",
+  "language_confidence": 0.932
+ },
+ {
+  "text": "paketimin takip numarasını öğrenebilir miyim",
+  "intent": "order_status",
+  "confidence": 0.875,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "siparişimin durumu ne",
+  "intent": "order_status",
+  "confidence": 0.879,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "ürün ne zaman gelir",
+  "intent": "order_status",
+  "confidence": 0.464,
+  "language": "tr",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "kargo hala yola çıkmadı mı",
+  "intent": "order_status",
+  "confidence": 0.914,
+  "language": "tr",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "where's my stuff",
+  "intent": "order_status",
+  "confidence": 0.468,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "my order hasn't shown up",
+  "intent": "order_status",
+  "confidence": 0.718,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "tracking info please",
+  "intent": "order_status",
+  "confidence": 0.475,
+  "language": "en",
+  "language_confidence": 0.962
+ },
+ {
+  "text": "when does my package arrive",
+  "intent": "order_status",
+  "confidence": 0.835,
+  "language": "en",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "is my order shipped",
+  "intent": "order_status",
+  "confidence": 0.942,
+  "language": "en",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "delivery is taking too long",
+  "intent": "order_status",
+  "confidence": 0.565,
+  "language": "en",
+  "language_confidence": 0.967
+ },
+ {
+  "text": "siparişi iptal etmek istiyorum lütfen",
+  "intent": "cancel_order",
+  "confidence": 0.962,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "vazgeçtim siparişi iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.997,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "iptal edebilir miyim siparişimi",
+  "intent": "cancel_order",
+  "confidence": 0.964,
+  "language": "tr",
+  "language_confidence": 0.996
+ },
+ {
+  "text": "yanlış renk seçtim iptal",
+  "intent": "cancel_order",
+  "confidence": 0.819,
+  "language": "tr",
+  "language_confidence": 0.942
+ },
+ {
+  "text": "sipariş iptali",
+  "intent": "cancel_order",
+  "confidence": 0.95,
+  "language": "tr",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "siparisi iptal edin",
+  "intent": "cancel_order",
+  "confidence": 0.998,
+  "language": "tr",
+  "language_confidence": 0.969
+ },
+ {
+  "text": "please cancel my order",
+  "intent": "cancel_order",
+  "confidence": 0.991,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "cancel the order i placed today",
+  "intent": "cancel_order",
+  "confidence": 0.956,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "i want to cancel",
+  "intent": "cancel_order",
+  "confidence": 0.901,
+  "language": "en",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "can i still cancel",
+  "intent": "cancel_order",
+  "confidence": 0.852,
+  "language": "en",
+  "language_confidence": 0.954
+ },
+ {
+  "text": "i made a mistake, cancel the purchase",
+  "intent": "cancel_order",
+  "confidence": 0.734,
+  "language": "en",
+  "language_confidence": 0.971
+ },
+ {
+  "text": "cancel order 100245",
+  "intent": "cancel_order",
+  "confidence": 0.989,
+  "language": "en",
+  "language_confidence": 0.965
+ },
+ {
+  "text": "ürün defolu geldi iade etmek istiyorum",
+  "intent": "return_refund",
+  "confidence": 0.983,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "iade ettim para ne zaman yatar",
+  "intent": "return_refund",
+  "confidence": 0.928,
+  "language": "tr",
+  "language_confidence": 0.945
+ },
+ {
+  "text": "beden küçük geldi değişim",
+  "intent": "return_refund",
+  "confidence": 0.814,
+  "language": "tr",
+  "language_confidence": 0.987
+ },
+ {
+  "text": "iade süreci nasıl işliyor",
+  "intent": "return_refund",
+  "confidence": 0.897,
+  "language": "tr",
+  "language_confidence": 0.923
+ },
+ {
+  "text": "paramı iade edin",
+  "intent": "return_refund",
+  "confidence": 0.975,
+  "language": "tr",
+  "language_confidence": 0.955
+ },
+ {
+  "text": "kırık çıktı geri göndereceğim",
+  "intent": "return_refund",
+  "confidence": 0.541,
+  "language": "tr",
+  "language_confidence": 0.982
+ },
+ {
+  "text": "item is broken, refund",
+  "intent": "return_refund",
+  "confidence": 0.944,
+  "language": "en",
+  "language_confidence": 0.801
+ },
+ {
+  "text": "how can i send this back",
+  "intent": "return_refund",
+  "confidence": 0.715,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "where is my refund",
+  "intent": "return_refund",
+  "confidence": 0.801,
+  "language": "en",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "wrong size, exchange please",
+  "intent": "return_refund",
+  "confidence": 0.491,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "return policy?",
+  "intent": "return_refund",
+  "confidence": 0.977,
+  "language": "en",
+  "language_confidence": 0.799
+ },
+ {
+  "text": "i want my money back",
+  "intent": "return_refund",
+  "confidence": 0.899,
+  "language": "en",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "adresimi yanlış girdim değiştirebilir miyim",
+  "intent": "change_address",
+  "confidence": 0.978,
+  "language": "tr",
+  "language_confidence": 0.997
+ },
+ {
+  "text": "yeni adresime gönderin",
+  "intent": "change_address",
+  "confidence": 0.94,
+  "language": "tr",
+  "language_confidence": 0.95
+ },
+ {
+  "text": "teslimat adresi değişikliği",
+  "intent": "change_address",
+  "confidence": 0.961,
+  "language": "tr",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "kapı numarası yanlış",
+  "intent": "change_address",
+  "confidence": 0.47,
+  "language": "tr",
+  "language_confidence": 0.993
+ },
+ {
+  "text": "siparişi annemin adresine gönderin",
+  "intent": "change_address",
+  "confidence": 0.817,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "adres guncellemek istiyorum",
+  "intent": "change_address",
+  "confidence": 0.711,
+  "language": "tr",
+  "language_confidence": 0.93
+ },
+ {
+  "text": "wrong address on order",
+  "intent": "change_address",
+  "confidence": 0.982,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "change shipping address please",
+  "intent": "change_address",
+  "confidence": 0.975,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "send it to my new place",
+  "intent": "change_address",
+  "confidence": 0.326,
+  "language": "en",
+  "language_confidence": 0.992
+ },
+ {
+  "text": "i need to update the delivery address",
+  "intent": "change_address",
+  "confidence": 0.909,
+  "language": "en",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "apartment number is wrong",
+  "intent": "change_address",
+  "confidence": 0.705,
+  "language": "en",
+  "language_confidence": 0.886
+ },
+ {
+  "text": "deliver to my office",
+  "intent": "change_address",
+  "confidence": 0.767,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "kartımdan 2 kez para çekildi",
+  "intent": "payment_issue",
+  "confidence": 0.952,
+  "language": "tr",
+  "language_confidence": 0.979
+ },
+ {
+  "text": "fatura nerede",
+  "intent": "payment_issue",
+  "confidence": 0.94,
+  "language": "tr",
+  "language_confidence": 0.838
+ },
+ {
+  "text": "ödeme yapamıyorum hata veriyor",
+  "intent": "payment_issue",
+  "confidence": 0.857,
+  "language": "tr",
+  "language_confidence": 0.985
+ },
+ {
+  "text": "indirim kodu geçmiyor",
+  "intent": "payment_issue",
+  "confidence": 0.804,
+  "language": "tr",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "param çekildi sipariş görünmüyor",
+  "intent": "payment_issue",
+  "confidence": 0.79,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "taksit yapabiliyor musunuz",
+  "intent": "payment_issue",
+  "confidence": 0.678,
+  "language": "tr",
+  "language_confidence": 0.922
+ },
+ {
+  "text": "double charged",
+  "intent": "payment_issue",
+  "confidence": 0.82,
+  "language": "en",
+  "language_confidence": 0.808
+ },
+ {
+  "text": "payment failed",
+  "intent": "payment_issue",
+  "confidence": 0.933,
+  "language": "en",
+  "language_confidence": 0.764
+ },
+ {
+  "text": "send me the invoice",
+  "intent": "payment_issue",
+  "confidence": 0.847,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "promo code not working",
+  "intent": "payment_issue",
+  "confidence": 0.638,
+  "language": "en",
+  "language_confidence": 0.981
+ },
+ {
+  "text": "card got declined",
+  "intent": "payment_issue",
+  "confidence": 0.667,
+  "language": "en",
+  "language_confidence": 0.904
+ },
+ {
+  "text": "charged but no order",
+  "intent": "payment_issue",
+  "confidence": 0.855,
+  "language": "en",
+  "language_confidence": 0.931
+ },
+ {
+  "text": "şifremi hatırlamıyorum",
+  "intent": "account_help",
+  "confidence": 0.907,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "giriş yapamıyorum",
+  "intent": "account_help",
+  "confidence": 0.726,
+  "language": "tr",
+  "language_confidence": 0.994
+ },
+ {
+  "text": "uygulama kapanıyor sürekli",
+  "intent": "account_help",
+  "confidence": 0.88,
+  "language": "tr",
+  "language_confidence": 0.986
+ },
+ {
+  "text": "doğrulama sms gelmiyor",
+  "intent": "account_help",
+  "confidence": 0.972,
+  "language": "tr",
+  "language_confidence": 0.962
+ },
+ {
+  "text": "hesabımı kapatmak istiyorum",
+  "intent": "account_help",
+  "confidence": 0.709,
+  "language": "tr",
+  "language_confidence": 0.99
+ },
+ {
+  "text": "site açılmıyor",
+  "intent": "account_help",
+  "confidence": 0.852,
+  "language": "tr",
+  "language_confidence": 0.953
+ },
+ {
+  "text": "can't login",
+  "intent": "account_help",
+  "confidence": 0.574,
+  "language": "en",
+  "language_confidence": 0.897
+ },
+ {
+  "text": "forgot password",
+  "intent": "account_help",
+  "confidence": 0.871,
+  "language": "en",
+  "language_confidence": 0.912
+ },
+ {
+  "text": "app crashes on startup",
+  "intent": "account_help",
+  "confidence": 0.66,
+  "language": "en",
+  "language_confidence": 0.885
+ },
+ {
+  "text": "no verification email",
+  "intent": "account_help",
+  "confidence": 0.838,
+  "language": "en",
+  "language_confidence": 0.659
+ },
+ {
+  "text": "delete my account",
+  "intent": "account_help",
+  "confidence": 0.952,
+  "language": "en",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "website is down",
+  "intent": "account_help",
+  "confidence": 0.348,
+  "language": "en",
+  "language_confidence": 0.84
+ },
+ {
+  "text": "temsilciye bağlanmak istiyorum",
+  "intent": "human_agent",
+  "confidence": 0.845,
+  "language": "tr",
+  "language_confidence": 0.984
+ },
+ {
+  "text": "canlı destek lütfen",
+  "intent": "human_agent",
+  "confidence": 0.91,
+  "language": "tr",
+  "language_confidence": 0.89
+ },
+ {
+  "text": "gerçek bir insanla görüşebilir miyim",
+  "intent": "human_agent",
+  "confidence": 0.812,
+  "language": "tr",
+  "language_confidence": 0.995
+ },
+ {
+  "text": "yetkili biriyle konuşmam lazım",
+  "intent": "human_agent",
+  "confidence": 0.855,
+  "language": "tr",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "sizi nasıl arayabilirim",
+  "intent": "human_agent",
+  "confidence": 0.407,
+  "language": "tr",
+  "language_confidence": 0.991
+ },
+ {
+  "text": "müşteri hizmetleri numarası",
+  "intent": "human_agent",
+  "confidence": 0.609,
+  "language": "tr",
+  "language_confidence": 0.968
+ },
+ {
+  "text": "talk to agent",
+  "intent": "human_agent",
+  "confidence": 0.914,
+  "language": "en",
+  "language_confidence": 0.902
+ },
+ {
+  "text": "real person please",
+  "intent": "human_agent",
+  "confidence": 0.937,
+  "language": "en",
+  "language_confidence": 0.964
+ },
+ {
+  "text": "can i call someone",
+  "intent": "human_agent",
+  "confidence": 0.909,
+  "language": "en",
+  "language_confidence": 0.974
+ },
+ {
+  "text": "speak to a manager",
+  "intent": "human_agent",
+  "confidence": 0.892,
+  "language": "en",
+  "language_confidence": 0.842
+ },
+ {
+  "text": "live agent",
+  "intent": "human_agent",
+  "confidence": 0.861,
+  "language": "en",
+  "language_confidence": 0.92
+ },
+ {
+  "text": "i want a human not a bot",
+  "intent": "human_agent",
+  "confidence": 0.902,
+  "language": "en",
+  "language_confidence": 0.975
+ },
+ {
+  "text": "yarın yağmur yağacak mı",
+  "intent": "out_of_scope",
+  "confidence": 0.5,
+  "language": "tr",
+  "language_confidence": 0.946
+ },
+ {
+  "text": "bana espri yap",
+  "intent": "out_of_scope",
+  "confidence": 0.894,
+  "language": "tr",
+  "language_confidence": 0.879
+ },
+ {
+  "text": "galatasaray kazandı mı",
+  "intent": "out_of_scope",
+  "confidence": 0.49,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "makarna nasıl yapılır",
+  "intent": "out_of_scope",
+  "confidence": 0.37,
+  "language": "tr",
+  "language_confidence": 0.978
+ },
+ {
+  "text": "euro ne kadar",
+  "intent": "out_of_scope",
+  "confidence": 0.713,
+  "language": "tr",
+  "language_confidence": 0.834
+ },
+ {
+  "text": "canım sıkılıyor",
+  "intent": "out_of_scope",
+  "confidence": 0.432,
+  "language": "tr",
+  "language_confidence": 0.956
+ },
+ {
+  "text": "tell me something funny",
+  "intent": "out_of_scope",
+  "confidence": 0.532,
+  "language": "en",
+  "language_confidence": 0.952
+ },
+ {
+  "text": "weather tomorrow?",
+  "intent": "out_of_scope",
+  "confidence": 0.444,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "who are you voting for",
+  "intent": "out_of_scope",
+  "confidence": 0.75,
+  "language": "en",
+  "language_confidence": 0.988
+ },
+ {
+  "text": "how to cook pasta",
+  "intent": "out_of_scope",
+  "confidence": 0.411,
+  "language": "en",
+  "language_confidence": 0.977
+ },
+ {
+  "text": "what's 2+2",
+  "intent": "out_of_scope",
+  "confidence": 0.79,
+  "language": "en",
+  "language_confidence": 0.966
+ },
+ {
+  "text": "sing a song",
+  "intent": "out_of_scope",
+  "confidence": 0.35,
+  "language": "en",
+  "language_confidence": 0.878
+ }
+]

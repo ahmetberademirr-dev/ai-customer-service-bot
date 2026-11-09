@@ -1,0 +1,350 @@
+[
+  {
+    "name": "Status: bot asks for the number, then answers in Turkish",
+    "turns": [
+      {
+        "say": "Siparişim nerede?",
+        "expect": {
+          "intent": "order_status",
+          "outcome": "asked_info",
+          "language": "tr"
+        }
+      },
+      {
+        "say": "100231",
+        "expect": {
+          "outcome": "answered",
+          "reply_contains": [
+            "Hızlı Kargo",
+            "Kablosuz kulaklık"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Status in English with the number in the same message",
+    "turns": [
+      {
+        "say": "Where is my order 100231?",
+        "expect": {
+          "language": "en",
+          "outcome": "answered",
+          "reply_contains": [
+            "Wireless headphones"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Late order goes to a human with high priority",
+    "turns": [
+      {
+        "say": "Kargom nerede kaldı? 100290",
+        "expect": {
+          "outcome": "escalated",
+          "priority": "high"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Unknown order number",
+    "turns": [
+      {
+        "say": "Siparişim nerede 999999",
+        "expect": {
+          "outcome": "asked_info",
+          "reply_contains": [
+            "999999"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Shipped order cannot be cancelled",
+    "turns": [
+      {
+        "say": "I want to cancel my order 100231",
+        "expect": {
+          "intent": "cancel_order",
+          "reply_contains": [
+            "can't be cancelled"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Order being prepared is cancelled and stays cancelled",
+    "turns": [
+      {
+        "say": "Siparişimi iptal etmek istiyorum 100245",
+        "expect": {
+          "outcome": "answered",
+          "reply_contains": [
+            "iptal ettim"
+          ]
+        }
+      },
+      {
+        "say": "Siparişim nerede? 100245",
+        "expect": {
+          "reply_contains": [
+            "iptal edilmiş"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Delivered order: cancellation becomes a return",
+    "turns": [
+      {
+        "say": "Cancel order 100262",
+        "expect": {
+          "intent": "cancel_order",
+          "reply_contains": [
+            "return"
+          ]
+        }
+      },
+      {
+        "say": "return",
+        "expect": {
+          "intent": "return_refund",
+          "reply_contains": [
+            "RET-100262"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Return inside 14 days gets a code",
+    "turns": [
+      {
+        "say": "Ürünü iade etmek istiyorum, sipariş 100262",
+        "expect": {
+          "outcome": "answered",
+          "reply_contains": [
+            "RET-100262"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Return after 14 days goes to a human",
+    "turns": [
+      {
+        "say": "I want to return order 100278",
+        "expect": {
+          "outcome": "escalated",
+          "priority": "medium"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Order number is remembered across messages",
+    "turns": [
+      {
+        "say": "Where is my order 100262?",
+        "expect": {
+          "outcome": "answered"
+        }
+      },
+      {
+        "say": "I want to return it",
+        "expect": {
+          "reply_contains": [
+            "RET-100262"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Address change after shipping goes to a human",
+    "turns": [
+      {
+        "say": "Teslimat adresimi değiştirmek istiyorum 100231",
+        "expect": {
+          "outcome": "escalated"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Address change before shipping is self-service",
+    "turns": [
+      {
+        "say": "Change the delivery address for 100245",
+        "expect": {
+          "intent": "change_address",
+          "outcome": "answered"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Cancelled order status",
+    "turns": [
+      {
+        "say": "Sipariş durumu 100301",
+        "expect": {
+          "outcome": "answered",
+          "reply_contains": [
+            "iptal edilmiş"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Payment always goes to a human with high priority",
+    "turns": [
+      {
+        "say": "Kartımdan iki kere para çekildi",
+        "expect": {
+          "intent": "payment_issue",
+          "outcome": "escalated",
+          "priority": "high"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Account help is self-service",
+    "turns": [
+      {
+        "say": "I forgot my password",
+        "expect": {
+          "intent": "account_help",
+          "outcome": "answered",
+          "priority": "low"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Angry wording raises priority",
+    "turns": [
+      {
+        "say": "Rezalet, temsilci istiyorum hemen",
+        "expect": {
+          "outcome": "escalated",
+          "priority": "high"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Two misunderstandings in a row go to a human",
+    "turns": [
+      {
+        "say": "xyz qq",
+        "expect": {
+          "outcome": "clarify"
+        }
+      },
+      {
+        "say": "zzz bbb",
+        "expect": {
+          "outcome": "escalated"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Greeting in Turkish, short reply keeps the language",
+    "turns": [
+      {
+        "say": "Merhaba",
+        "expect": {
+          "intent": "greeting",
+          "language": "tr",
+          "reply_contains": [
+            "hoş geldiniz"
+          ]
+        }
+      },
+      {
+        "say": "ok",
+        "expect": {
+          "language": "tr"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Out-of-scope question is declined politely",
+    "turns": [
+      {
+        "say": "What's the weather like?",
+        "expect": {
+          "intent": "out_of_scope",
+          "outcome": "answered"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Very long message is cut to 500 characters",
+    "turns": [
+      {
+        "say_repeat": [
+          "Siparişim nerede? ",
+          60
+        ],
+        "expect": {
+          "intent": "order_status",
+          "message_length": 500
+        }
+      }
+    ]
+  },
+  {
+    "name": "Bare order number as first message uses the page language",
+    "turns": [
+      {
+        "say": "#100231",
+        "default_lang": "tr",
+        "expect": {
+          "language": "tr",
+          "outcome": "answered",
+          "reply_contains": [
+            "Kablosuz kulaklık"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gibberish as first message is answered in the page language",
+    "turns": [
+      {
+        "say": "xyz qq",
+        "default_lang": "tr",
+        "expect": {
+          "outcome": "clarify",
+          "language": "tr",
+          "reply_contains": [
+            "anlayamadım"
+          ]
+        }
+      },
+      {
+        "say": "zzz bbb",
+        "default_lang": "tr",
+        "expect": {
+          "outcome": "escalated",
+          "language": "tr"
+        }
+      }
+    ]
+  }
+]
